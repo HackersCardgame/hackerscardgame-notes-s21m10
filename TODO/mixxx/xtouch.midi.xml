@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset mixxxVersion="1.10.1+" schemaVersion="1">
+    <info>
+        <name>xtouch</name>
+        <author>Rob K</author>
+        <description>This is a mapping for an Akai LPD8.  Provides access to transport controls, 30 hotcues, loop controls, basic beat jumping, for two decks and two samplers.  Prog 1 = Deck 1; Prog 2 = Deck 2; Prog 3 = Sampler 1; Prog 4 = Sampler 4.  PAD controls hotcues, CC controls Loops, PROG CHNG provides transport controls.  Intended for use as a supplementary controller on top of a standard DJ controller to give access to more hotcues, etc. but could be used as a standalone controller in a pinch.  Created Jan 1, 2013</description>
+        <forums>https://mixxx.discourse.group/t/akai-lpd8-mapping-4-decks-30-hotcues-loops-etc-v2/13064</forums>
+    </info>
+    <controller id="LPD8">
+        <scriptfiles>
+            <file functionprefix="LPD8RK" filename="Akai-LPD8-RK-scripts.js"/>
+        </scriptfiles>
+        <controls>
+            <control>
+                <group></group>
+                <key></key>
+                <status>0x90</status>
+                <midino>0x00</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Master]</group>
+                <key>gain</key>
+                <description>MIDI Learned from 13 messages.</description>
+                <status>0xBA</status>
+                <midino>0x01</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[AutoDJ]</group>
+                <key>enabled</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x81</status>
+                <midino>0x08</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[AutoDJ]</group>
+                <key>enabled</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x91</status>
+                <midino>0x08</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[AutoDJ]</group>
+                <key>shuffle_playlist</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x81</status>
+                <midino>0x09</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[AutoDJ]</group>
+                <key>shuffle_playlist</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x91</status>
+                <midino>0x09</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[AutoDJ]</group>
+                <key>skip_next</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x8A</status>
+                <midino>0x10</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[AutoDJ]</group>
+                <key>skip_next</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x9A</status>
+                <midino>0x10</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[AutoDJ]</group>
+                <key>fade_now</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x8A</status>
+                <midino>0x11</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[AutoDJ]</group>
+                <key>fade_now</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x9A</status>
+                <midino>0x11</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
