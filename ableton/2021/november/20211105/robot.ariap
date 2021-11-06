@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<AriaPreset version="1969" productID="1017">
+    <Target name="com.Plogue.Talker">
+        <CustomData htype="9073" size="126" version="0" adata="a robot shall not injure humans or other robots&#x0D;&#x0A;a robot shall protect himself&#x0D;&#x0A;a robot should increase the system stability&#x0D;&#x0A;" />
+    </Target>
+</AriaPreset>
