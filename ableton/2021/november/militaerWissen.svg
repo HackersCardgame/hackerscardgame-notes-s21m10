@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="militaerWissen.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker3539"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#b3b3b3;stroke-width:1pt;stroke-opacity:1;fill:#008000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3537" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3191"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path3189"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#b3b3b3;stroke-width:1pt;stroke-opacity:1;fill:#008000;fill-opacity:1"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1022"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker2240"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#b3b3b3;stroke-width:1pt;stroke-opacity:1;fill:#008000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2238" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1961"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#008000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1959" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1025"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#b3b3b3;stroke-width:1pt;stroke-opacity:1;fill:#008000;fill-opacity:1"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1019"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#ffff00;stroke-width:1pt;stroke-opacity:1;fill:#008000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1022-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3000701"
+     inkscape:cx="360.46532"
+     inkscape:cy="621.1129"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#0000ff;stroke:#ff0000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.482"
+       id="rect815"
+       width="159.88393"
+       height="100.54166"
+       x="13.19137"
+       y="73.729462"
+       ry="20.410725"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <rect
+       style="fill:#ff0000;stroke:#ffffff;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.764"
+       id="rect815-3"
+       width="45.536522"
+       height="28.635258"
+       x="23.214376"
+       y="118.74939"
+       ry="5.8131762"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.40151715px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06003793"
+       x="45.924011"
+       y="117.73225"
+       id="text819-9"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81"><tspan
+         sodipodi:role="line"
+         x="45.924011"
+         y="117.73225"
+         style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.06003793"
+         id="tspan825-9">Schweizer MilitärWissen</tspan></text>
+    <rect
+       style="fill:#803300;stroke:#000000;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.764"
+       id="rect815-3-7"
+       width="45.536522"
+       height="28.635258"
+       x="92.060905"
+       y="101.97195"
+       ry="5.8131762"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.40151715px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06003793;"
+       x="114.77054"
+       y="100.95477"
+       id="text819-9-8"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81"><tspan
+         sodipodi:role="line"
+         x="114.77054"
+         y="100.95477"
+         style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.06003793;"
+         id="tspan825-9-4">Deutsches MilitärWissen</tspan></text>
+    <rect
+       style="fill:#0000ff;stroke:#ff0000;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.764"
+       id="rect815-3-0"
+       width="45.536522"
+       height="28.635258"
+       x="100.26299"
+       y="140.07195"
+       ry="5.8131762"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.40151715px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;"
+       x="122.97263"
+       y="139.05482"
+       id="text819-9-5"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81"><tspan
+         sodipodi:role="line"
+         x="122.97263"
+         y="139.05482"
+         style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;"
+         id="tspan825-9-5">Amerikanisches MilitärWissen</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#00ff00;stroke:#ffff00;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path933"
+       sodipodi:sides="5"
+       sodipodi:cx="37.041664"
+       sodipodi:cy="131.50311"
+       sodipodi:r1="1.966657"
+       sodipodi:r2="0.98332852"
+       sodipodi:arg1="-0.34302394"
+       sodipodi:arg2="0.28529459"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 38.893747,130.84165 -0.908502,0.93821 0.257829,1.28029 -1.17303,-0.57412 -1.137951,0.64084 0.183529,-1.29303 -0.96112,-0.88422 1.286457,-0.22502 0.543946,-1.18733 0.611545,1.15396 z"
+       inkscape:transform-center-x="0.017539972"
+       inkscape:transform-center-y="-0.1710414"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332"
+       id="path935"
+       sodipodi:cx="44.614979"
+       sodipodi:cy="129.85478"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="4.5153918"
+       sodipodi:argument="-18.294062"
+       sodipodi:t0="0"
+       d="m 44.614979,129.85478 c 0.192354,0.11939 -0.06604,0.3182 -0.198438,0.31971 -0.358796,0.004 -0.515871,-0.41994 -0.440972,-0.71658 0.133978,-0.53062 0.756583,-0.73482 1.234723,-0.56224 0.70169,0.25327 0.958874,1.09729 0.683506,1.75286 -0.367023,0.87378 -1.439375,1.18502 -2.271008,0.80478 -1.046524,-0.47851 -1.412234,-1.78211 -0.92604,-2.78915 0.588847,-1.21967 2.125186,-1.64007 3.307292,-1.04731 1.393072,0.69854 1.868274,2.46849 1.168575,3.82543 -0.80783,1.56665 -2.811948,2.09675 -4.343577,1.28984 -1.740335,-0.91685 -2.32539,-3.1555 -1.411109,-4.86171 1.025686,-1.91412 3.499143,-2.55417 5.379862,-1.53238 2.087954,1.13438 2.783046,3.84284 1.653643,5.898"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="star"
+       style="fill:#00ff00;stroke:#ffff00;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path937"
+       sodipodi:sides="5"
+       sodipodi:cx="59.928125"
+       sodipodi:cy="137.85312"
+       sodipodi:r1="3.4724987"
+       sodipodi:r2="1.1088063"
+       sodipodi:arg1="1.2610934"
+       sodipodi:arg2="1.8894119"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 60.986457,141.16041 -1.405669,-2.25429 -2.471043,0.97554 1.709583,-2.03348 -1.691391,-2.04864 2.462249,0.99753 1.425705,-2.24168 -0.187829,2.64999 2.572526,0.66321 -2.578335,0.64026 z"
+       inkscape:transform-center-x="-0.20440142"
+       inkscape:transform-center-y="0.0077242158"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="star"
+       style="fill:#00ff00;stroke:#ffff00;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.699"
+       id="path939"
+       sodipodi:sides="5"
+       sodipodi:cx="43.705784"
+       sodipodi:cy="142.21341"
+       sodipodi:r1="2.6566398"
+       sodipodi:r2="3.1304902"
+       sodipodi:arg1="1.0132386"
+       sodipodi:arg2="1.4203517"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 45.111453,144.4677 -0.936478,0.84084 -2.178774,-1.06165 -1.089073,-0.63081 0.336406,-2.4002 0.263395,-1.2307 2.386684,-0.42176 1.251859,-0.12981 1.138646,2.13954 0.510297,1.15048 z"
+       inkscape:transform-center-x="-0.058041945"
+       inkscape:transform-center-y="-0.19785186"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       d="m 32.179783,138.94437 c 0.107588,0.0668 -0.03694,0.17797 -0.110991,0.17882 -0.200684,0.002 -0.28854,-0.23489 -0.246647,-0.40081 0.07494,-0.29678 0.423176,-0.411 0.690612,-0.31447 0.392473,0.14166 0.536323,0.61374 0.382302,0.98042 -0.205285,0.48873 -0.805079,0.66281 -1.270232,0.45013 -0.585348,-0.26764 -0.789899,-0.99677 -0.517958,-1.56004 0.329357,-0.68219 1.18867,-0.91733 1.849853,-0.58579 0.77918,0.39071 1.044973,1.38069 0.653613,2.13967 -0.45184,0.87626 -1.572794,1.17276 -2.429473,0.72144 -0.973414,-0.51282 -1.300651,-1.76496 -0.78927,-2.71929 0.573693,-1.07061 1.957161,-1.42861 3.009095,-0.85709 1.167846,0.63449 1.556628,2.14939 0.924924,3.2989 -0.695231,1.26511 -2.341658,1.68469 -3.588714,0.99275 -1.362392,-0.75592 -1.812779,-2.53394 -1.060581,-3.87852 0.816593,-1.45969 2.726237,-1.9409 4.168336,-1.12841 1.557006,0.87723 2.069036,2.91855 1.196235,4.45815 -0.937842,1.65433 -3.110866,2.19719 -4.747956,1.26406 -1.751666,-0.99844 -2.325365,-3.3032 -1.331891,-5.03777 1.059019,-1.84901 3.495533,-2.45355 5.327577,-1.39972 1.946359,1.11959 2.581744,3.68788 1.467547,5.61739 -1.180145,2.04372 -3.880225,2.70995 -5.907198,1.53538 -0.211266,-0.12243 -0.412341,-0.26239 -0.600567,-0.41793"
+       sodipodi:t0="0"
+       sodipodi:argument="-18.294062"
+       sodipodi:radius="4.441895"
+       sodipodi:revolution="5.2762995"
+       sodipodi:expansion="1"
+       sodipodi:cy="138.94437"
+       sodipodi:cx="32.179783"
+       id="path941"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.14798822"
+       sodipodi:type="spiral"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="star"
+       style="fill:#00ff00;stroke:#ffff00;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path937-8"
+       sodipodi:sides="5"
+       sodipodi:cx="118.9701"
+       sodipodi:cy="157.69359"
+       sodipodi:r1="3.4724989"
+       sodipodi:r2="1.1088063"
+       sodipodi:arg1="1.2610934"
+       sodipodi:arg2="1.8894119"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 120.02843,161.00088 -1.40567,-2.25429 -2.47104,0.97554 1.70959,-2.03348 -1.6914,-2.04864 2.46225,0.99752 1.42571,-2.24167 -0.18783,2.64999 2.57252,0.66321 -2.57833,0.64026 z"
+       inkscape:transform-center-x="-0.20440142"
+       inkscape:transform-center-y="0.0077242158"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="star"
+       style="fill:#00ff00;stroke:#ffff00;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path937-4"
+       sodipodi:sides="5"
+       sodipodi:cx="124.26177"
+       sodipodi:cy="116.94776"
+       sodipodi:r1="3.4724989"
+       sodipodi:r2="1.1088063"
+       sodipodi:arg1="1.2610934"
+       sodipodi:arg2="1.8894119"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 125.32011,120.25505 -1.40567,-2.25429 -2.47105,0.97555 1.70959,-2.03349 -1.69139,-2.04864 2.46224,0.99753 1.42571,-2.24168 -0.18783,2.65 2.57253,0.66321 -2.57834,0.64025 z"
+       inkscape:transform-center-x="-0.20440142"
+       inkscape:transform-center-y="0.0077242158"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff2a2a;stroke:#000080;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path939-0"
+       sodipodi:sides="5"
+       sodipodi:cx="138.47618"
+       sodipodi:cy="156.45513"
+       sodipodi:r1="2.6566401"
+       sodipodi:r2="3.1304903"
+       sodipodi:arg1="1.0132386"
+       sodipodi:arg2="1.4203517"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 139.88185,158.70942 -0.93648,0.84083 -2.17877,-1.06164 -1.08907,-0.63081 0.3364,-2.4002 0.2634,-1.23071 2.38668,-0.42176 1.25186,-0.1298 1.13865,2.13954 0.51029,1.15047 z"
+       inkscape:transform-center-x="-0.058041945"
+       inkscape:transform-center-y="-0.19785186"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="star"
+       style="fill:#f4d7d7;stroke:#88aa00;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path939-7"
+       sodipodi:sides="5"
+       sodipodi:cx="129.08347"
+       sodipodi:cy="150.76659"
+       sodipodi:r1="2.6566401"
+       sodipodi:r2="3.1304903"
+       sodipodi:arg1="1.0132386"
+       sodipodi:arg2="1.4203517"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 130.48913,153.02088 -0.93647,0.84084 -2.17878,-1.06165 -1.08907,-0.63081 0.33641,-2.4002 0.26339,-1.2307 2.38668,-0.42177 1.25186,-0.1298 1.13865,2.13954 0.5103,1.15048 z"
+       inkscape:transform-center-x="-0.058041945"
+       inkscape:transform-center-y="-0.19785186"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="star"
+       style="fill:#00ff00;stroke:#ffff00;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.699"
+       id="path939-2"
+       sodipodi:sides="5"
+       sodipodi:cx="106.19701"
+       sodipodi:cy="151.82492"
+       sodipodi:r1="2.6566401"
+       sodipodi:r2="3.1304903"
+       sodipodi:arg1="1.0132386"
+       sodipodi:arg2="1.4203517"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 107.60268,154.07921 -0.93648,0.84084 -2.17878,-1.06164 -1.08907,-0.63081 0.33641,-2.40021 0.26339,-1.2307 2.38669,-0.42176 1.25185,-0.12981 1.13865,2.13954 0.5103,1.15048 z"
+       inkscape:transform-center-x="-0.058041945"
+       inkscape:transform-center-y="-0.19785186"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="star"
+       style="fill:#00ff00;stroke:#ffff00;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.699"
+       id="path939-9"
+       sodipodi:sides="5"
+       sodipodi:cx="107.25534"
+       sodipodi:cy="122.19159"
+       sodipodi:r1="2.6566401"
+       sodipodi:r2="3.1304903"
+       sodipodi:arg1="1.0132386"
+       sodipodi:arg2="1.4203517"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 108.66101,124.44588 -0.93648,0.84084 -2.17877,-1.06165 -1.08907,-0.63081 0.3364,-2.4002 0.2634,-1.2307 2.38668,-0.42176 1.25186,-0.12981 1.13864,2.13954 0.5103,1.15048 z"
+       inkscape:transform-center-x="-0.058041945"
+       inkscape:transform-center-y="-0.19785186"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff6600;stroke:#aa0000;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path939-1"
+       sodipodi:sides="5"
+       sodipodi:cx="130.1418"
+       sodipodi:cy="162.67283"
+       sodipodi:r1="2.6566401"
+       sodipodi:r2="3.1304903"
+       sodipodi:arg1="1.0132386"
+       sodipodi:arg2="1.4203517"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 131.54747,164.92713 -0.93648,0.84084 -2.17877,-1.06165 -1.08908,-0.63081 0.33641,-2.4002 0.26339,-1.2307 2.38669,-0.42177 1.25186,-0.1298 1.13864,2.13954 0.5103,1.15048 z"
+       inkscape:transform-center-x="-0.058041945"
+       inkscape:transform-center-y="-0.19785186"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="star"
+       style="fill:#00ff00;stroke:#ffff00;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path939-09"
+       sodipodi:sides="5"
+       sodipodi:cx="108.71055"
+       sodipodi:cy="161.87909"
+       sodipodi:r1="0.1362812"
+       sodipodi:r2="3.1304903"
+       sodipodi:arg1="-1.9428263"
+       sodipodi:arg2="-1.5357132"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 108.66101,161.75213 0.15934,-3.0016 -0.004,3.04221 2.90394,-0.776 -2.89467,0.93594 1.63539,2.52201 -1.78464,-2.46377 -1.89321,2.33469 1.79171,-2.45864 -2.80546,-1.07909 z"
+       inkscape:transform-center-x="-0.058041945"
+       inkscape:transform-center-y="-0.19785186"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       style="fill:#008000;stroke:#000000;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
+       d="M 106.43899,121.23626 83.933197,97.530978"
+       id="path1011"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path1957"
+       d="M 44.933636,141.23553 83.933197,97.530978"
+       style="fill:#008000;stroke:#000000;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1961)"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path2236"
+       d="M 105.9001,150.84576 83.933197,97.530978"
+       style="fill:#008000;stroke:#000000;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2240)"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.73559308px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06838983"
+       x="43.512356"
+       y="101.38906"
+       id="text2948"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81"><tspan
+         sodipodi:role="line"
+         id="tspan2946"
+         x="43.512356"
+         y="101.38906"
+         style="font-weight:bold;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.06838983">Das zu verpetzen gibt vermutlich</tspan><tspan
+         sodipodi:role="line"
+         x="43.512356"
+         y="104.12466"
+         style="font-weight:bold;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.06838983"
+         id="tspan2950">am meisten Ärger mit den meisten</tspan><tspan
+         sodipodi:role="line"
+         x="43.512356"
+         y="106.86024"
+         style="font-weight:bold;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.06838983"
+         id="tspan2952">militärischen Täternetzwerken</tspan></text>
+    <g
+       id="g3086"
+       transform="translate(-2.3276546,-0.29841725)"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81">
+      <rect
+         ry="1.9490415"
+         y="152.65968"
+         x="58.614883"
+         height="9.6008282"
+         width="15.267483"
+         id="rect815-3-8"
+         style="fill:#c8beb7;stroke:#ffff00;stroke-width:0.26612845;stroke-miterlimit:4;stroke-dasharray:0.26612845, 0.26612845;stroke-dashoffset:0" />
+      <path
+         inkscape:transform-center-y="-0.10229774"
+         inkscape:transform-center-x="-0.030011422"
+         d="m 63.629089,157.53974 -0.48425,0.4348 -1.126638,-0.54898 -0.563156,-0.32619 0.173954,-1.24114 0.136201,-0.63639 1.234148,-0.21809 0.647333,-0.0671 0.58879,1.10635 0.263873,0.59491 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4203517"
+         sodipodi:arg1="1.0132386"
+         sodipodi:r2="1.6187679"
+         sodipodi:r1="1.3737411"
+         sodipodi:cy="156.37405"
+         sodipodi:cx="62.902222"
+         sodipodi:sides="5"
+         id="path939-9-3"
+         style="opacity:0.69899998;fill:#00ff00;stroke:#ffff00;stroke-width:0.41044593;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g3086-5"
+       transform="translate(1.2533574,0.29841331)"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81">
+      <rect
+         ry="1.9490415"
+         y="152.65968"
+         x="58.614883"
+         height="9.6008282"
+         width="15.267483"
+         id="rect815-3-8-5"
+         style="fill:#c8beb7;stroke:#ffff00;stroke-width:0.26612845;stroke-miterlimit:4;stroke-dasharray:0.26612845, 0.26612845;stroke-dashoffset:0" />
+      <path
+         inkscape:transform-center-y="-0.10229774"
+         inkscape:transform-center-x="-0.030011422"
+         d="m 63.629089,157.53974 -0.48425,0.4348 -1.126638,-0.54898 -0.563156,-0.32619 0.173954,-1.24114 0.136201,-0.63639 1.234148,-0.21809 0.647333,-0.0671 0.58879,1.10635 0.263873,0.59491 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4203517"
+         sodipodi:arg1="1.0132386"
+         sodipodi:r2="1.6187679"
+         sodipodi:r1="1.3737411"
+         sodipodi:cy="156.37405"
+         sodipodi:cx="62.902222"
+         sodipodi:sides="5"
+         id="path939-9-3-9"
+         style="opacity:0.69899998;fill:#00ff00;stroke:#ffff00;stroke-width:0.41044593;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g3086-4"
+       transform="translate(5.311832,0.83556436)"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81">
+      <rect
+         ry="1.9490415"
+         y="152.65968"
+         x="58.614883"
+         height="9.6008282"
+         width="15.267483"
+         id="rect815-3-8-8"
+         style="fill:#c8beb7;stroke:#ffff00;stroke-width:0.26612845;stroke-miterlimit:4;stroke-dasharray:0.26612845, 0.26612845;stroke-dashoffset:0" />
+      <path
+         inkscape:transform-center-y="-0.10229774"
+         inkscape:transform-center-x="-0.030011422"
+         d="m 63.629089,157.53974 -0.48425,0.4348 -1.126638,-0.54898 -0.563156,-0.32619 0.173954,-1.24114 0.136201,-0.63639 1.234148,-0.21809 0.647333,-0.0671 0.58879,1.10635 0.263873,0.59491 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4203517"
+         sodipodi:arg1="1.0132386"
+         sodipodi:r2="1.6187679"
+         sodipodi:r1="1.3737411"
+         sodipodi:cy="156.37405"
+         sodipodi:cx="62.902222"
+         sodipodi:sides="5"
+         id="path939-9-3-7"
+         style="opacity:0.69899998;fill:#00ff00;stroke:#ffff00;stroke-width:0.41044593;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g3086-0"
+       transform="translate(8.7734721,1.5517658)"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81">
+      <rect
+         ry="1.9490415"
+         y="152.65968"
+         x="58.614883"
+         height="9.6008282"
+         width="15.267483"
+         id="rect815-3-8-2"
+         style="fill:#c8beb7;stroke:#ffff00;stroke-width:0.26612845;stroke-miterlimit:4;stroke-dasharray:0.26612845, 0.26612845;stroke-dashoffset:0" />
+      <path
+         inkscape:transform-center-y="-0.10229774"
+         inkscape:transform-center-x="-0.030011422"
+         d="m 63.629089,157.53974 -0.48425,0.4348 -1.126638,-0.54898 -0.563156,-0.32619 0.173954,-1.24114 0.136201,-0.63639 1.234148,-0.21809 0.647333,-0.0671 0.58879,1.10635 0.263873,0.59491 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4203517"
+         sodipodi:arg1="1.0132386"
+         sodipodi:r2="1.6187679"
+         sodipodi:r1="1.3737411"
+         sodipodi:cy="156.37405"
+         sodipodi:cx="62.902222"
+         sodipodi:sides="5"
+         id="path939-9-3-8"
+         style="opacity:0.69899998;fill:#00ff00;stroke:#ffff00;stroke-width:0.41044593;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g3086-6"
+       transform="translate(12.235112,2.0292334)"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81">
+      <rect
+         ry="1.9490415"
+         y="152.65968"
+         x="58.614883"
+         height="9.6008282"
+         width="15.267483"
+         id="rect815-3-8-22"
+         style="fill:#c8beb7;stroke:#ffff00;stroke-width:0.26612845;stroke-miterlimit:4;stroke-dasharray:0.26612845, 0.26612845;stroke-dashoffset:0" />
+      <path
+         inkscape:transform-center-y="-0.10229774"
+         inkscape:transform-center-x="-0.030011422"
+         d="m 63.629089,157.53974 -0.48425,0.4348 -1.126638,-0.54898 -0.563156,-0.32619 0.173954,-1.24114 0.136201,-0.63639 1.234148,-0.21809 0.647333,-0.0671 0.58879,1.10635 0.263873,0.59491 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4203517"
+         sodipodi:arg1="1.0132386"
+         sodipodi:r2="1.6187679"
+         sodipodi:r1="1.3737411"
+         sodipodi:cy="156.37405"
+         sodipodi:cx="62.902222"
+         sodipodi:sides="5"
+         id="path939-9-3-2"
+         style="opacity:0.69899998;fill:#00ff00;stroke:#ffff00;stroke-width:0.41044593;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g3086-2"
+       transform="translate(15.458019,3.2825858)"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81">
+      <rect
+         ry="1.9490415"
+         y="152.65968"
+         x="58.614883"
+         height="9.6008282"
+         width="15.267483"
+         id="rect815-3-8-1"
+         style="fill:#c8beb7;stroke:#ffff00;stroke-width:0.26612845;stroke-miterlimit:4;stroke-dasharray:0.26612845, 0.26612845;stroke-dashoffset:0" />
+      <path
+         inkscape:transform-center-y="-0.10229774"
+         inkscape:transform-center-x="-0.030011422"
+         d="m 63.629089,157.53974 -0.48425,0.4348 -1.126638,-0.54898 -0.563156,-0.32619 0.173954,-1.24114 0.136201,-0.63639 1.234148,-0.21809 0.647333,-0.0671 0.58879,1.10635 0.263873,0.59491 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4203517"
+         sodipodi:arg1="1.0132386"
+         sodipodi:r2="1.6187679"
+         sodipodi:r1="1.3737411"
+         sodipodi:cy="156.37405"
+         sodipodi:cx="62.902222"
+         sodipodi:sides="5"
+         id="path939-9-3-6"
+         style="opacity:0.69899998;fill:#00ff00;stroke:#ffff00;stroke-width:0.41044593;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g3086-45"
+       transform="translate(19.695544,3.9391038)"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81">
+      <rect
+         ry="1.9490415"
+         y="152.65968"
+         x="58.614883"
+         height="9.6008282"
+         width="15.267483"
+         id="rect815-3-8-7"
+         style="fill:#c8beb7;stroke:#ffff00;stroke-width:0.26612845;stroke-miterlimit:4;stroke-dasharray:0.26612845, 0.26612845;stroke-dashoffset:0" />
+      <path
+         inkscape:transform-center-y="-0.10229774"
+         inkscape:transform-center-x="-0.030011422"
+         d="m 63.629089,157.53974 -0.48425,0.4348 -1.126638,-0.54898 -0.563156,-0.32619 0.173954,-1.24114 0.136201,-0.63639 1.234148,-0.21809 0.647333,-0.0671 0.58879,1.10635 0.263873,0.59491 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4203517"
+         sodipodi:arg1="1.0132386"
+         sodipodi:r2="1.6187679"
+         sodipodi:r1="1.3737411"
+         sodipodi:cy="156.37405"
+         sodipodi:cx="62.902222"
+         sodipodi:sides="5"
+         id="path939-9-3-89"
+         style="opacity:0.69899998;fill:#00ff00;stroke:#ffff00;stroke-width:0.41044593;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="star" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.26473713px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.1566184;"
+       x="48.665817"
+       y="172.09039"
+       id="text3161"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81"><tspan
+         sodipodi:role="line"
+         id="tspan3159"
+         x="48.665817"
+         y="172.09039"
+         style="stroke-width:0.1566184;fill:#666666;">Andere Länder</tspan></text>
+    <path
+       style="fill:#008000;stroke:#000000;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker3191)"
+       d="M 82.694892,158.94285 83.933197,97.530978"
+       id="path3187"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332"
+       id="path935-0"
+       sodipodi:cx="103.87093"
+       sodipodi:cy="109.27664"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="4.5153918"
+       sodipodi:argument="-18.294062"
+       sodipodi:t0="0"
+       d="m 103.87093,109.27664 c 0.19236,0.11939 -0.066,0.31819 -0.19843,0.31971 -0.3588,0.004 -0.51588,-0.41995 -0.44098,-0.71658 0.13398,-0.53062 0.75659,-0.73482 1.23473,-0.56224 0.70169,0.25327 0.95887,1.09729 0.6835,1.75286 -0.36702,0.87378 -1.43937,1.18502 -2.271,0.80478 -1.04653,-0.47851 -1.41224,-1.78211 -0.92604,-2.78915 0.58884,-1.21967 2.12518,-1.64007 3.30729,-1.04731 1.39307,0.69854 1.86827,2.46849 1.16857,3.82543 -0.80783,1.56665 -2.81195,2.09674 -4.34358,1.28984 -1.74033,-0.91685 -2.325385,-3.1555 -1.4111,-4.86171 1.02568,-1.91412 3.49914,-2.55417 5.37986,-1.53238 2.08795,1.13438 2.78304,3.84284 1.65364,5.898"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332"
+       id="path935-4"
+       sodipodi:cx="110.07751"
+       sodipodi:cy="108.38999"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="4.5153918"
+       sodipodi:argument="-18.294062"
+       sodipodi:t0="0"
+       d="m 110.07751,108.38999 c 0.19235,0.11939 -0.066,0.31819 -0.19844,0.31971 -0.3588,0.004 -0.51587,-0.41995 -0.44097,-0.71658 0.13398,-0.53062 0.75658,-0.73482 1.23472,-0.56224 0.70169,0.25327 0.95887,1.09729 0.68351,1.75286 -0.36703,0.87378 -1.43938,1.18502 -2.27101,0.80478 -1.04653,-0.47851 -1.41224,-1.78211 -0.92604,-2.78915 0.58885,-1.21967 2.12518,-1.64007 3.30729,-1.04731 1.39307,0.69854 1.86827,2.46849 1.16858,3.82543 -0.80783,1.56665 -2.81195,2.09674 -4.34358,1.28984 -1.74034,-0.91685 -2.32539,-3.1555 -1.41111,-4.86171 1.02569,-1.91412 3.49914,-2.55417 5.37986,-1.53238 2.08796,1.13438 2.78305,3.84284 1.65364,5.898"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       d="m 117.58885,125.53911 c 0.10759,0.0668 -0.0369,0.17797 -0.11099,0.17882 -0.20068,0.002 -0.28854,-0.23489 -0.24665,-0.4008 0.0749,-0.29679 0.42318,-0.41101 0.69062,-0.31448 0.39247,0.14166 0.53632,0.61374 0.3823,0.98042 -0.20529,0.48873 -0.80508,0.66282 -1.27023,0.45013 -0.58535,-0.26764 -0.7899,-0.99677 -0.51796,-1.56004 0.32935,-0.68219 1.18867,-0.91733 1.84985,-0.58578 0.77918,0.39071 1.04497,1.38069 0.65361,2.13966 -0.45184,0.87626 -1.57279,1.17276 -2.42947,0.72144 -0.97341,-0.51282 -1.30065,-1.76496 -0.78927,-2.71928 0.57369,-1.07062 1.95716,-1.42862 3.0091,-0.8571 1.16784,0.63449 1.55662,2.1494 0.92492,3.2989 -0.69523,1.26511 -2.34166,1.68469 -3.58871,0.99276 -1.3624,-0.75593 -1.81278,-2.53394 -1.06058,-3.87853 0.81659,-1.45969 2.72623,-1.9409 4.16833,-1.12841 1.55701,0.87723 2.06904,2.91855 1.19624,4.45815 -0.93785,1.65433 -3.11087,2.19719 -4.74796,1.26406 -1.75167,-0.99844 -2.32536,-3.30319 -1.33189,-5.03776 1.05902,-1.84901 3.49553,-2.45355 5.32758,-1.39972 1.94636,1.11958 2.58174,3.68787 1.46754,5.61738 -1.18014,2.04372 -3.88022,2.70995 -5.90719,1.53538 -0.21127,-0.12243 -0.41235,-0.26239 -0.60057,-0.41792"
+       sodipodi:t0="0"
+       sodipodi:argument="-18.294062"
+       sodipodi:radius="4.441895"
+       sodipodi:revolution="5.2762995"
+       sodipodi:expansion="1"
+       sodipodi:cy="125.53911"
+       sodipodi:cx="117.58885"
+       id="path941-4"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.14798822"
+       sodipodi:type="spiral"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       d="m 130.38202,107.67933 c 0.10759,0.0668 -0.0369,0.17797 -0.11099,0.17882 -0.20069,0.002 -0.28854,-0.23489 -0.24665,-0.4008 0.0749,-0.29679 0.42318,-0.41101 0.69061,-0.31448 0.39248,0.14166 0.53633,0.61374 0.38231,0.98042 -0.20529,0.48873 -0.80508,0.66282 -1.27024,0.45013 -0.58535,-0.26764 -0.7899,-0.99677 -0.51796,-1.56004 0.32936,-0.68219 1.18868,-0.91733 1.84986,-0.58578 0.77918,0.39071 1.04497,1.38069 0.65361,2.13966 -0.45184,0.87626 -1.57279,1.17276 -2.42947,0.72144 -0.97342,-0.51282 -1.30065,-1.76496 -0.78927,-2.71928 0.57369,-1.07062 1.95716,-1.42862 3.00909,-0.8571 1.16785,0.63449 1.55663,2.1494 0.92493,3.2989 -0.69523,1.26511 -2.34166,1.68469 -3.58872,0.99276 -1.36239,-0.75593 -1.81278,-2.53394 -1.06058,-3.87853 0.81659,-1.45969 2.72624,-1.9409 4.16834,-1.12841 1.557,0.87723 2.06903,2.91855 1.19623,4.45815 -0.93784,1.65433 -3.11086,2.19719 -4.74795,1.26406 -1.75167,-0.99844 -2.32537,-3.30319 -1.33189,-5.03776 1.05902,-1.84901 3.49553,-2.45355 5.32757,-1.39972 1.94636,1.11958 2.58175,3.68787 1.46755,5.61738 -1.18014,2.04372 -3.88022,2.70995 -5.9072,1.53538 -0.21126,-0.12242 -0.41234,-0.26239 -0.60056,-0.41792"
+       sodipodi:t0="0"
+       sodipodi:argument="-18.294062"
+       sodipodi:radius="4.441895"
+       sodipodi:revolution="5.2762995"
+       sodipodi:expansion="1"
+       sodipodi:cy="107.67933"
+       sodipodi:cx="130.38202"
+       id="path941-0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.14798822"
+       sodipodi:type="spiral"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ac9393;stroke:#ffaaaa;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path937-1"
+       sodipodi:sides="5"
+       sodipodi:cx="131.63367"
+       sodipodi:cy="125.11219"
+       sodipodi:r1="3.4724989"
+       sodipodi:r2="1.1088063"
+       sodipodi:arg1="1.2610934"
+       sodipodi:arg2="1.8894119"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 132.692,128.41948 -1.40567,-2.25429 -2.47104,0.97554 1.70958,-2.03348 -1.69139,-2.04864 2.46225,0.99753 1.4257,-2.24168 -0.18782,2.64999 2.57252,0.66321 -2.57833,0.64026 z"
+       inkscape:transform-center-x="-0.20440142"
+       inkscape:transform-center-y="0.0077242158"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3535"
+       d="M 62.882357,156.15665 83.933197,97.530978"
+       style="fill:#008000;stroke:#000000;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker3539)"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <rect
+       style="opacity:1;fill:#000000;stroke:#999999;stroke-width:1.05777967;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1013"
+       width="82.749817"
+       height="11.358019"
+       x="51.597267"
+       y="85.294044"
+       ry="5.6790094"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.43200111px;line-height:1.29999995;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.21080002"
+       x="92.927475"
+       y="82.905075"
+       id="text819"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81"><tspan
+         sodipodi:role="line"
+         x="92.927475"
+         y="82.905075"
+         style="line-height:1;text-align:center;text-anchor:middle;fill:#00ff00;stroke-width:0.21080002"
+         id="tspan821"><tspan
+   style="font-weight:bold"
+   id="tspan827">Militärisches</tspan> (Neuroscience-)</tspan><tspan
+         sodipodi:role="line"
+         x="92.927475"
+         y="93.866676"
+         style="font-weight:bold;line-height:1;text-align:center;text-anchor:middle;fill:#00ff00;stroke-width:0.21080002"
+         id="tspan825">KonzeptWissen</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-3)"
+       d="M 17.196275,99.627616 C 10.410201,88.743295 34.968202,83.965432 52.684894,91.219523"
+       id="path3002"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\marc\tracks\ableton\2021\november\militaerKonzeptWissen.png"
+       inkscape:export-xdpi="313.81"
+       inkscape:export-ydpi="313.81" />
+  </g>
+</svg>
