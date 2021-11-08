@@ -1,0 +1,13 @@
+wavset to the slots in Zebra2 oscillators. Put it in directory: "u-he\Zebra2\Modules\Oscillator"
+
+Wavset contains:
+
+50%square
+downsaw
+invrootsine
+invsine
+invsqsine
+saw
+sine
+triangle
+upsaw

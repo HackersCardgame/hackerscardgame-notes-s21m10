@@ -1,0 +1,558 @@
+/*@meta
+
+Author:
+'u-he'
+
+*/
+
+#AM=Zebralette
+#Vers=10003
+#Endian=little
+
+/*
+
+	Modulator Reference Table
+
+*/
+
+#nm=13
+#ms=none
+#ms=ModWhl
+#ms=PitchW
+#ms=Breath
+#ms=Xpress
+#ms=LfoG1
+#ms=Gate
+#ms=Velocity
+#ms=Pressure
+#ms=KeyFollow
+#ms=Env1
+#ms=MSEG1
+#ms=Lfo1
+#nv=2
+#mv=Gate
+#mv=Env1
+
+/*
+
+	Main Loop Circuit
+
+*/
+
+#cm=main
+CcOp=104.79			// Output
+#LFOG=1				// Active #LFOG
+#ModFX1=1				// Active #ModFX1
+#Delay1=1				// Active #Delay1
+
+/*
+
+	Core
+
+*/
+
+#cm=PCore
+SBase=4				// SwingBase=1/4
+Swing=0.00			// Swing
+STrig=1				// SwingTrigger
+PSong=0				// PatchSong
+PFold=0				// binary data for PatchFolder
+PFile=1				// binary data for PatchFileName
+GFile=2				// binary data for GUI FileName
+GScale=0				// GUI Scale
+ChLay=0				// Channel Layout=auto/surround
+SurrO=1				// Surround Options=no lfe
+Rev=3898				// Revision
+LED=0.00			// LED Colour
+PAGE=0				// PAGE
+PagesOn=0				// Display PAGES
+CoreN=3				// binary data for CoreN
+Slice=4				// binary data for Slice
+UI_op=12				// GUI opens
+MidiA=5				// binary data for Midi A param
+MidiP=6				// binary data for Midi P param
+
+/*
+
+	LfoG1
+
+*/
+
+#cm=LFOG
+Sync=4				// Sync=1/32
+Trig=0				// Restart=off
+Wave=0				// Waveform=sine
+Phse=0.00			// Phase
+Polar=0				// Polarity=bipolar
+
+/*
+
+	VoiceCircuit
+
+*/
+
+#cm=VCC
+#LFO1=1				// Active #LFO1
+#OSC1=1				// Active #OSC1
+Voices=1				// Voices=medium
+Voicing=1				// Voice Stack
+Mode=0				// Mode=poly
+PortaM=0				// GlideMode=time
+Porta=0.00			// Glide
+Porta2=0.00			// Glide2
+PRange=100.00			// PortaRange
+PB=2				// PitchBend Up
+PBD=2				// PitchBend Down
+Drft=1				// Drift
+MTunS=0				// TuningMode
+MTunN=7				// binary data for Tuning
+MTunT=8				// binary data for TuningTable
+Trsp=-12				// Transpose
+FTun=0.00			// FineTuneCents
+
+/*
+
+	Env1
+
+*/
+
+#cm=ENV1
+Mode=0				// Mode=quadric
+iMode=0				// InitMode=none
+sMode=0				// SustainMode=none
+init=0.00			// Init
+Atk=0.00			// Attack
+Dec=32.00			// Decay
+Sus=0.00			// Sustain
+SusT=0.00			// Fall/Rise
+Sus2=0.00			// Sustain2
+Rel=17.50			// Release
+Vel=60.00			// Velocity
+V2I=0.00			// Vel2I
+V2A=0.00			// Vel2A
+V2D=0.00			// Vel2D
+V2S=0.00			// Vel2S
+V2FR=0.00			// Vel2FR
+V2S2=0.00			// Vel2S2
+V2R=0.00			// Vel2R
+K2I=0.00			// Key2I
+K2A=0.00			// Key2A
+K2D=0.00			// Key2D
+K2S=0.00			// Key2S
+K2FR=0.00			// Key2FR
+K2S2=0.00			// Key2S2
+K2R=0.00			// Key2R
+Slope=0.00			// Slope
+TBase=0				// Timebase=8sX
+
+/*
+
+	MSEG1
+
+*/
+
+#cm=MSEG1
+TmUn=0				// TimeUnit=Sixteenth
+Env=9				// binary data for Envelope
+Vel=100.00			// Velocity
+Atk=0.00			// Attack
+Lpt=0.00			// Loop
+Rel=0.00			// Release
+Trig=0				// Trigger=poly
+
+/*
+
+	Lfo1
+
+*/
+
+#cm=LFO1
+Sync=3				// Sync=1/64
+Trig=0				// Restart=sync
+Wave=0				// Waveform=sine
+Phse=0.00			// Phase
+Polar=0				// Polarity=bipolar
+Dly=0.00			// Delay
+DMS1=1				// DepthMod Src1=ModWhl
+DMD1=0.00			// DepthMod Dpt1
+Rate=0.00			// Rate
+FMS1=0				// FreqMod Src1=none
+FMD1=0.00			// FreqMod Dpt
+
+/*
+
+	Oscillator1
+
+*/
+
+#cm=OSC1
+Wave=2				// WaveForm=GeoBlend
+Tune=-29.00			// Tune
+KeyScl=100.00			// key scale
+TMSrc=0				// TuneModSrc=none
+TMDpt=0.00			// TuneModDepth
+Phse=0.00			// Phase
+PhsMSrc=0				// PhaseModSrc=none
+PhsMDpt=0.00			// PhaseModDepth
+WNum=1.00			// WaveWarp
+WPSrc=11				// WarpModSrc=MSEG1
+WPDpt=4.60			// WarpModDepth
+VtoD=0.00			// Vibrato
+Curve=10				// binary data for Curve
+Prec=5.00			// Resolution
+FX1Tp=20				// SpectraFX1 Type=Scatter
+SFX1=98.00			// SpectraFX1 Val
+FX1Sc=0				// SFX1ModSrc=none
+FX1Dt=0.00			// SFX1ModDepth
+FX2Tp=1				// SpectraFX2 Type=Fundamental
+SFX2=62.00			// SpectraFX2 Val
+FX2Sc=0				// SFX2ModSrc=none
+FX2Dt=0.00			// SFX2ModDepth
+Poly=0				// PolyWave=single
+Dtun=0.00			// Detune
+KVsc=11				// binary data for KeyVelZones
+Vol=156.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Sync=0.00			// SyncTune
+SncSc=0				// SyncModSrc=none
+SncDt=0.00			// SyncModDepth
+SncOn=0				// Sync Active
+PolW=43.00			// Poly Width
+PwmOn=0				// PWM Mode
+WaTb=12				// binary data for WaveTable
+RePhs=0				// Reset Phase
+Norm=40.50			// Normalize
+Rend=0				// Renderer=soft
+
+/*
+
+	VoiceMix
+
+*/
+
+#cm=VMix
+Pan=0.00			// Pan
+Vol=50.00			// Volume
+VCA=1				// VCA=Env1
+ModSrc=0				// Modulation=none
+ModDpt=0.00			// ModDepth
+PanSrc=0				// PanModulation=none
+PanDpt=0.00			// PanModDepth
+AttS=1				// AttackSmooth=on
+
+/*
+
+	ModFX1
+
+*/
+
+#cm=ModFX1
+Mode=0				// Mode=Chorus
+Cent=20.00			// Center
+Sped=50.00			// Speed
+PhOff=50.00			// Stereo
+Dpth=50.00			// Depth
+FeeB=0.00			// Feedback
+Mix=0.00			// Mix
+LCut=0.00			// LowCut Freq
+HCut=100.00			// HiCut Freq
+Quad=0.00			// Quad
+Qphs=25.00			// QuadPhase
+Leq=0.00			// Low Boost dB
+Heq=0.00			// High Boost dB
+Q1=0.00			// Q1
+Q2=0.00			// Q2
+EQon=1				// EQ
+
+/*
+
+	Delay1
+
+*/
+
+#cm=Delay1
+Mode=0				// Mode=stereo 2
+Mix=0.00			// Mix
+FB=10.00			// Feedback
+CB=25.00			// X-back
+LP=100.00			// Lowpass
+HP=0.00			// Hipass
+Drv=0.00			// Drive
+Sync1=4				// Sync1=1/8
+Sync2=4				// Sync2=1/8
+Sync3=4				// Sync3=1/8
+Sync4=4				// Sync4=1/8
+T0=100.00			// Ratio1
+T1=100.00			// Ratio2
+T2=100.00			// Ratio3
+T3=100.00			// Ratio4
+Pan1=-100.00			// Pan1
+Pan2=100.00			// Pan2
+Pan3=-100.00			// Pan3
+Pan4=100.00			// Pan4
+
+/*
+
+	ZlMaster
+
+*/
+
+#cm=ZMas
+OSC1=13				// binary data for Oscillator1
+MSEG1=14				// binary data for MSEG1
+
+
+// Section for ugly compressed binary Data
+// DON'T TOUCH THIS
+
+$$$$18744
+?aaaaiadp:jkjjjjlo:aaaaialp:pnpphpdp:gdgceneb:pmpphpdp:ncaahodp:
+eaaaaaaa:dhbkmaln:aaaaaaea:do:lp:dp:lo:aa:dn:ln:ec:eb:lm:po:dm:f
+n:ad:ab:ea:pp:ac:kd:an:fl:ae:gb:bg:ag:gi!uEOE9emgpgdWgmEQ1lihljd
+ogpjhpE1kicmkfdhE3oicmkfdhE3gdgpgncohfcnZgfcofkgfgchcWgmgfhe1gfc
+ofahcgfgggfhcgfgogdgfhdcohehiheE188uxE7gjgogjhegjWgmgjhkgfcoZdch
+aE1kicmkfdhE3oicmkfdhE3gdgpgncohfcnZgfcofkgfgchcWgmgfhe1gfcofahc
+gfgggfhcgfgogdgfhdcouxE71uxE7eifaedipgcdcbmokneinghpgmfnmegihndd
+iegnjmkglgojbfdfgboWeeniOdjedkgaopbOjgkhenmihekakjhhnpkapmkpboid
+cgmlIccnaknhdnhhgednoimFuVE10henadcOuEOE9hfcnZgfE251uiaE138uxE7c
+o2EhfgmhecahdgdWgmgfE22qzE1P1E1iaPE1kaPE1maPE1oaPuERE5qE3qzE1P1E
+1iaPE1kaPE1maPE1oaxIE1baIE1caIE1daIE1PIE1faIE1gaIE1haIE1iaIE1iiI
+E1jaIE1jiIE1kaIE1kiIE1laIE1liIE1maIE1miIE1naIE1niIE1oaIE1oiIE1pa
+IE1piIE2HE1VHE1aiHE1amHE1baHE1beHE1biHE1bmHE1caHE1ceHE1ciHE1cmHE
+1daHE1deHE1diHE1LHE1PHE1eeHE1eiHE1emHE1faHE1feHE1fiHE1fmHE1gaHE1
+geHE1ZHE1gmHE1haHE1heHE1hiHE1hmHE1iaHE1icHE1ieHE1igHE1iiHE1ikHE1
+imHE1ioHE1jaHE1jcHE1jeHE1jgHE1jiHE1jkHE1jmHE1joHE1kaHE1kcHE1keHE
+1kgHE1kiHE1kkHE1kmHE1koHE1laHE1lcHE1leHE1lgHE1liHE1lkHE1JHE1DHE1
+maHE1mcHE1meHE1mgHE1miHE1mkHE1mmHE1moHE1naHE1ncHE1neHE1ngHE1niHE
+1nkHE1nmHE1noHE1oaHE1ocHE1oeHE1ogHE1oiHE1okHE1omHE1ooHE1paHE1pcH
+E1peHE1pgHE1piHE1pkHE1pmHE1KHudaRE5qE3RE2OE2OE2OEamE16qE3obhkfeB
+qE7iiolfbBoahmimCff2ColfbliAsiombnjCdbamedLE7haAggCE2CaknhSLljbo
+ifDhaAcgChkjochClaehWDaknhSLE1maAE1PCE7qE7rE1PxE4rE1kaxE4rE1oaxE
+4rE1gaIE7rE1faIE7rE1PIE7rE1daIE7rE1caIE7rE1baIE7rE1iiIE7rE1jaIE7
+rE1jiIE7rE1kaIE7rE1kiIE7rE1laIE7rE1liIE7rE1maIE7rE1miIE7rE1naIE7
+rE1niIE7rE1oaIE7rE1oiIE7rE1paIE7rE1piIE7rE15uVcaE5zE3pjfdQAq2E11
+1ggdejkAQ1hpCq1E111ekfdneFKQhpCq1E111nochccFRkmbaCPphbaCqE118Cpn
+ffECqE115KfdQApiQ1AqE115plkhKAphfdQAqE115paenodAolpjodAqE115oepd
+mhAoajpmiAqE115njjjkmAneefknAqE115moCjbAmioljbAqE115iemlglAhkcdg
+nAqE115CklcjAdfNclAqE115amhgneFpgcfnhFqE115maneokLgajepfLqE108zG
+gcdllaRcmLjedaepLqE107tspiQhpCq1E107tsvq1E107tsq2E107tsleXlclleg
+inmedlqE107tsE3dcbefgLqE107tsgnhkndDcapeobAqE107tspnQhpBvqE107ts
+pnQhpBvqE107tspnQhpBvqE107tspnQhpBvqE107tspnQhpBvqE107tspmQhpBvq
+E107tspmQhpBvqE107tspmQhpBvqE107tspmQhpBvqE107tpmQhpBsvqE111emob
+pkDsE119nammjmDieolfbDE119emobpkGE1iaDbbkoehDE115emobhkGE2DE1651
+neSdaCoahkjeAE119kahabfCjijjdjAE119nihkpeAmnmmamAE119nihkheAoahk
+beFE1655afE2ubaE6zfiemLcehp3gaeidabihp3uEcaE5zehNniDXplilDMKmdAh
+fRgkBMKSDljpmmhDgodeEFioYhaAblToaGgodeEFhcpjepAXplolAcoQdbBhcpje
+pDXplklAE1PDcoQOCE1iaGhfRakBcejhhpJcejhhpJE1iaAljpmohAhcpjepDcoQ
+cbBSOJDioYdaDcoQcbBkjkegoBmkfeOAEgpfbBjmddccAbhnjboCmijinlAnmnhI
+AbmolgcBmgnmbfCiejoTBcmnejkDpjdbhgBmpphbdBaoDpaAnhdeCBilpnffCjbh
+ohlDhmWpcDkgjlgeCnanfegBpimcceCbheinaGdcoggoBijncjoApimcmeDhamoc
+iBfefcghBlikphdCcjmlEBgpbcmdAehNbiCnmZcaBehNhiBE1oaDSOjmAE1iaFlj
+pmmhDcejhhpJehNniAE3hcpjepDokVleAE3ioYhaAE2AXplolDofpcjpFE1PAilp
+nefCXplilDblTcaAhcpjepDokVleAMKidASOjmDgodeEFljpmohDhcpjepASOcmC
+E1PDljpmohDblTcaAblTgaAE2DehNniDioYdaDehNniAilpnbfCblToaGMKSAE1i
+aDMKidDE1PDhfRakCgodeEGE1oaDokVleDokVjeAhfRakCE1iaGcoQfbCXplolAc
+oQcbChfRfkCXplilDXplolDljpmmhAdhbkPGilpncfBXplilDSOJAE2DSObmBblT
+oaGioYdaAydhbkmaFcejhhpLE2DXplilAcoQhbCdhbkPFehNpiAXplilDhfRdkBS
+OhmCioYjaAehNdiBdhbkmaFMKhdChfRhkBSOhmBMKhdBokVleDilpnefCncEgoBh
+cpjepAMKhdCwilpndfCMKNCncEfoCSOemBE1gaCMKcdCSOhmCncEfoBMKgdCMKfd
+CcoQOBE1haCnfajciAwljpmmhAwehNbiBMKhdCilpnbfBehNciBSOhmCE1maDclp
+gfhAE1iaFcoQIBkjbdnaFblTcaASOhmCclpgfhAljpmahDhfRckBcoQfbCMKNBco
+QWBwhfRhkCSOhmCMKodDioYhaDwhcpjepAMKhdCE1maAofpcjpGblTgaGSOpmAhf
+RhkBE1iaAywnfajciAioYpaDilpnbfCUlbBJioYlaDioYdaAcoQWBncEhoBfcchc
+aFE1faBilpndfCdhbkPGMKedCnfajciDUlbBLSOLCljpmmhAljpmmhAXplolAehN
+biCilpnafBehNciBehNfiCMKidDhfRakBilpnhfCE1oaDE1PCSOgmCclpgbhAehN
+diCE1kaAMKgdCehNhiBehNaiBncEeoCioYpaAhfRbkBE1caBioYpaFcoQWCblTca
+DhcpjapDljpmkhDcoQOCwE1maDSOnmDhfRgkCSOjmDwioYpaAhfRakBehNdiCE1h
+aBE1caBXplmlAhfRhkBMKfdBE1PAyclpgbhDehNdiDnfajZAokVleAyXplilAMKb
+dBilpnafCblTcaAhcpjipFokVneAMKodAljpmahAMKSDdhbkPGehNhiDyljpmmhA
+ehNeiBE1PAcoQWCSObmBfcchcaGUlbBLMKSDblTcaDljpmkhAMKcdChcpjapDyMK
+idDblTgaFioYpaGhfRdkBblTgaAioYdaDSOamCioYnaDblToaGofpcjpFblToaFM
+KSAblTcaDE1maDMKSASOJAclpgfhDXplolAMKodDcejhhpLehNaiCnfajZDSOJAl
+jpmkhAjlogjnDbckfMCpmkjhbGbnfkfeCVfgeoBbjhddhBVfgboConjobmBhoimc
+jCcdnldjDcciocfCkbpilbGKgfjhAgodeiaFMnmcgBekamRDaknhgdAblcpMLcan
+cbpBfikilfGahpaggBlknkmkAallfdgBfkpfpjAocfijhDehNZBbcidkaAkclehh
+DmmMalCkaijpaDjkaielBdd1pdDaocnHCpcnchnBpldkpaFodmhpiABaobmDMKhd
+CofpcgpBbeCXBGodbeCmcigdhCGodjeGipfdceBpdbpfcGnoRejCNajckBhghbpl
+DOnoHASjcfkCdkcdkkDbkmaUBepbopgDnjFbjBmpgggfCnejkfgCcgoeidFhciki
+oDEzbdobDhnnajdAokjflcDgdhpejCfeodbfCblTgaFE1PDcejhQllokVleDioYp
+aFehNhiAhcpjipFokVpeDcaIdbAamjdkjGkgjlVDhgepboDhihkgfAojlhkpAekh
+lidGfghnioAPbdOBcbbpVCKnediAbjVngFhoimnjAmmooojAhlidcpAcdnlhjDmg
+nmdfLdbjjckDncEnoJnaeeniAHAciBkbngheAkbpiWChpgkpmDcjfmapFialhmaF
+cpgogdDhcikioGiklambAlknkckCbkfbfkGmaomboJggphceDoofkRAEgpOGlfdh
+biBfpahioAdbaikmGYbcbeCgdoojkDnipapeJmobjbbAoinjcmADdaljAfehekeG
+oajmjbDklmplfAZldmkAmokkapDheegpeAgdhpljDegjehgFAhjaiCjpklcnDdhb
+kmaApkonklAjdkjicDepPfdCekhlNGhamoeiCDjpdkBichdcgBjdbibeClcjnapB
+cihobmCeegjcpDolocXCfkgellGhialieAfcchcaFhhDbpBafSbcDfidjdeAohbn
+khJmnmmbmBKnepiGdhbkgaBopmjSAegcfdfBlkejmmAmcigkhDpimcgeBoigkglA
+ifoljbDbcidoaAjcmlQDCmgemBekamRBldamcbCoinjhmBjgcbaoFncgpBAfcejM
+DeiBenCPbdhbBjcfmboBNhiolARJbfCbicgbdDfpcjclBjbhoplGichdcgCjcmlc
+pBnejkYBigdingFclpgdhCjcmlBDbkmaUBbdpcOBmeHbnBikioeeCdeiadhCaknh
+SdlonTjoDkifhekGbndiohDneclgfAScdljDialhdaCbdpcOCdbaikmLkimgelDp
+mkjpbJojlhkpDkenpDFcmgffjAedbmglFkfcmodDIicccAobaljdGndenocGkgjl
+VDfdafgdANhiklAjgcbaoGjhQjaAeifanmDckdkRCoajmfbAcjonTAcncbnpAcan
+copAFakfhAimljclDenieinFmhcjlkGjmddccFmmhpoiA1hjaiBigmjjeAkbpiWC
+jmmemaDncgpnpFbokhciAnlikpnGjgedilLfkgenlAbhlhdbChbkmalFjjckjiFl
+ikpidGjglcemACmgfmFoinjomDdbaikmAgmajhjdlpgcibmChbkmelDfpcjelFpd
+bpfcAedkngjAVfgmoAVohimllelfjegDbekomhAehhcnjAoaDioGnbjbpmAenpdi
+oDnanfngFmdpfaiCnejkogGmkdcmeAcanckpAenpdeoDKneeiCmdgekklldgLFCh
+jojcgBolhdbfBjfneajCokjfRBgahgapCggphceDHAaiCbenameGbmhmWAcejhhp
+LjakabiBikbpcdDgpibVAijncfoGhkmhbjBjlogbnDpfekfjBehhchjAibjfddBb
+ljo1ADmblhDkkicWBklmpbfAnfajkiDkifhkkAfainahBhcikeoBpkhoakBkoniQ
+AfbnkhlBmkdceeGmcbhigApcIipDdeiachCckdkhcBbahkcgBkidfknAicocohAb
+kmaUDJafdcBjepgegDcgoeNCcciodfBgahgapBcmnejkLlefjbfColhdnfDimljU
+BimnlaiBLeocbBlikpcdCjfgfbiCkngjfoGenieknDbfbnmjGplfmonDhijmccAP
+keBDjoopbhCiipenlAdlhaeoJfainfhDpdbpfcGNhiklDenieinFbbmhdkAmgnmd
+fFWfencDckkjbdAgmajhjGmijillGklmpnfGcojagaARclkhAohbnkhllniibjdA
+bahklgDdcffECpkhogkAefnidaAnnlfoeAipmcpfAEjbhoAomcpllGibcgRAnkkm
+hkJnaldnjFmhlkpiAiohfnbDnhdekpAbdpcWCneclifDmijidlAhmpchaAbhlhnb
+JkkganeFclbipfARjkdiCKnepiFjmddccAliboafFdkjcilAbhnjaoAgheekjDNa
+jmkAmijillFfidjceCdipimcGmkdcVAamjdijAgkenjdAekhlodAhdnhjcFbicgn
+dGgdhpnjAalceoiAE3jigoRChamoeiDihXbjAehhcajCndJgdGfoelmiAWmdldA1
+hjbiDkngjAChmpclaLikladbCdd1bdBfeheVBejcoQAfpcjolDjigoRCDjpbkDbi
+cgpdAmndlmoGbbmhdkAEgpOJbmhmbbBapjmddDamjdkjFkbngleGlemiXBlhgcCD
+cfhffcBlbfaclAJafdcBphoeWAjoopmhDUHfoBnmZiaFceciD1hjfiZAejcoapBb
+heifaBkkpbbcBnlikGAeiobhkBRJafDgdhpbjAfhomkpDcaIOCigfkhdBinjhcoB
+gemmMAbnfkkeAckdkjcDimnldiBpaXiiDjdkjmcACfhdlBhjfibiBhamoiiGhihk
+ofAciapolDimljUBafmfapBcgfdcfBofnaRCokjfpcAbokhoiGmiahGDpegmXDni
+ibpdDkfeomaFnncemgDhgepKAYbcleAdgLFGpifdgdDYibjfGRclkhDmhlkdiFBa
+obmAcfYOFbmhmmbDelokVAXplelGepkpjeGakZkcGajblfoAbmolkcAicocmhLbj
+VjgAnhSjaDhgoapmAgoSibAjinnfdAimekokAQlcplAmfKjcAKgfhhJnlikFAccp
+nhgFldamdbAgpibVCifoljbDamjdmjAifolWCbicgbdDlikpidAonjojmAGodjeF
+OnoHAKgfahCgahgC1ocojffAlfdhhiAOenVAaoDlaAjniaggAmmMelDnfajoiAnj
+modhAlkejcmCjgedalLYibffAboXkkAbhlhlbAkmknpiAklAbhAmnmmemJlbfaol
+AolocpgAjigojcFegjeYCpjkaohGchmcegA1oiajCmdgekkdkThbmmAihkhlhAMK
+mdGMKddCpakhegFnncecgCnlpjKDhjojogDZldokAmobjnbDidmaokAoacnbaDkl
+mpnfAihkhnhGFcmbeAcfYOGdffoakBmkdceeDepkpbeFKedpkGWmdbdBndnogaDo
+dkfelBdffolkFphhfdaBljinYAjjckniDhpplfkBmdgekkJheegneDnjmophFnan
+fXBJaffcBfkgeblBegjehgAlbobhjBbkfbfkDaiFblFkaijnaDbjVlgAgpibheBa
+llfdgBoofkmcFdhijIAclihlgDUlbCBjglckmDlfbfhlAmobjIBafdecbBpgcibm
+DijIkaAmaUEBQlcUBhnkoXBjofocjBcgoemdAmggnleAojcgdbDcihommDjfgfei
+DlfkgpjDlbBomLhkkfmmDlbBmmAidcpimAjmkcSGkabkgpDbdpcmbGbmolkcDoin
+jkmLeiobpkFfainjhLnhSlaDngfgomFmaomboGkmilUGpgjhMGodkfUAbljo1Abl
+cpMFAhjjiAFjlffDScdpjAhlbeioAlemihgAdlnpopAlhnbECchmckgAnkkmhkFd
+fophiAfpcjalAlefjhfAonjoamCcpnnceDMKodAifolWCPkenpJchkakjAlhnbma
+AgjEcpAngmfinAogCbeCGfcegCihkhjhARclkhAilgmghAocojnfAphYjpARjkii
+GfdafNCimnliiAkkgadeCkpjeofFJhejdAemkgmkAmfcanaAhjojYCggphgeAfcc
+hkaFQcbpnAfimkRCoajmbbApfljakCipmcpfJmggnheAmdgeakCplmlgoFkaijna
+AmijillAfghncoGamjdcjCfbgljkFdbjjbkCdeianhDelokmeDglclngAfjbhlhD
+pclanaARJafDAhjliAPbdobGgdoonkFkoehWGepPNBepkpfeDffmbciJkonibpDj
+mmebaBhhcnibDbenaeeBefnihaLdcogcoBoinjcmFhjfioiDdallfhBklmpnfGmd
+geokDgmajhjLmjhgboBopmjfdBaknhcdBkpcfoeFkhoihiBbjhdjhD1mbjhGojcg
+pbDkkpbfcAfikihfBplmlABpfljnkJnfhigjFeiobnkDclihegBLeonbDbmhmobF
+MnmegBboXckBldokhdDpnpgdfAomcpalBQlcUBpgjhbnBiigdcnBibcgicAThbgm
+AToagnDiipenlDKedhkDjcmlQDJhebdGbicgndDomcpjlARjkeiAlahcoiGeiobh
+kDinjhooGbljo1DonTAllbckfGFdeialhdljcmljpDbhnjmoFndJodJjgcbaoGZj
+bonJihXfjAbkfbjkAamRklFhppljkAmmooajDlefjpfAgmhijkAoinjimAolhdpf
+AWmdNCiiiflkAmnmmamAmhcjjkAkmknfiAUndjmAgkJbeChecebhGjcfmKAphoeW
+CbahklgFjhjampAggphoeAjfneijAmhcjlkAfmcacbCblcpenCdighmeAaocnncA
+opdikfAlfbfplAlknkmkARJifFekambcCmgnmlfAThbLCknpkfmApgciJAfpcjol
+AhcikooAkkicbbCcmgfjjAoinjcmAdeiaahCmhcjakCAoifjAkenpaoCihXfjFmo
+bjjbAeiobakCZccomFdekcneAoohmBAjpklcnLllchbpCLeonbFieTapCkjbdlaD
+OnokcDiklambAoebejnDegjelgAegjepgGnbccjlApkhookGllliinFjmmekaGna
+eepiDaleggfDbokhZGjdkjHDeiBTBkbpijbDeepkFBeifahmGgnfgcnBooolPGhf
+jdpiDobhkfeBbcidPDpldkEBhoimljGmcbhcgBjeihffBlkejcmBJhejdJjoophh
+BmbmkmbDEjbADbjocaiBghnfghFlemihgBhjojegBclpgbhDjkjj1GgedlQDplfm
+enBocojpfDXplmlJonjoemBkkpbdcBdjngkfDhlbecoFbjVXBhbkmUBgpibceBhd
+ZdbBlhnbEAblToaFlefjjfDNhiolDepbojgDdipiRBkjkemoGlfkgnjDepPfdAio
+hfpbFjjllXDnmegidDenieTDbkfbjkDgeMnmJnmZiaFldhlpcllgjEipDojcglbF
+chkaijJejjniaJcejhhpllgckbfgAdebbjgAilgmohFBhnjnAgmajhjGmfippbAM
+nmkgAjcfmjoAjkaiplAjjllYCojeimoAgdoofkApfnllhAobaljdAnlpjDAhgoab
+mChmWlcFpbgdamCgknoWCjigofcAolhdpfAikioVCnkblJAjniaogAeepkcnChia
+lfeCojcgpbAblcppnAlemingAfcchbaChnkopgANajekAldamcbCofnaocApnihe
+eCibjfSAcpnnoeAdjngafCjniaYCenbfbmCkfeomaAbenaieAnmZbaCkkicbbCmo
+bjjbAfdafbdCmmMalAjoopkhACfhalCgjgpdaAmhlkniAcpgomdAcfhficFgkJbe
+CmkdcVAniibNCbokhiiDndnoiaDinciknAfdafidDlgiejmAiklaobGmijihlAld
+okpdGejjnEFgaofnaGNajokDipmchfDWmdndGHgagfDidmaakBkolgkcDRcldhBk
+idfTDkimgclBdkjcalDdighVBjddkfbBciapilDcdekalBemdhejDeiBcnBdjeff
+hBgkJdeBahpaXDahpahgBenbfomDjakajiDemdhbjBonTDGjoophhBphYepBhbFi
+kDjinnfdDddmebbBmkdcfeBmeHTBndJcdDhmWfcBmdnddlBbhlhnbDhpnjG1efni
+caBhbkmUBoigkclBolhddfBmdgeckllbeCegJeglgldDgdoopkDieTkpDkgakYBl
+bobcjDfcchoaDijIoaFaknhcdFScddjDdackijDndJcdDdebbjgDgaoffaGelfjY
+FdaemkgJeifahmDckkjjdFmkfembllbhlhfbdljpklknLFcmfeAddmejbAJafbcA
+E1kaAgckbfgLngmfonAgkenldAcanckpAbheiECnaldajCekamocApnihjeAccio
+nfAommaljAPbdobApepnceCnaeefiAamjdbjCgknoWCbenakeAcnlcTCgckbXCdl
+haooAlkglajCcmnedkCnfohfkCmaomaoCcbbpbeCkpcfVCLGccCjddkbbCRjkkiA
+blTdaCicocahCfpjiemCkmknniAlemiYCmcbhXChelfbfCpakhcgCbndiohAepPl
+dAidfbbjCbjocbiChnClfAjadbbhCmaUgaAgnmfDAmdndalCZldgkAUndnmAfefc
+mhAeegjopFbkfbakChhDbpAfhomopAcfhfHDeiBFDkmknjiAJaffcDakZicAmnmm
+1GooolPAgnfgpnGdlhamollbcidEDdgmnnlDkfcmidDgdhpbjDhialieDdallahB
+JheldDdcffdaBCfhUDoddgckBhjojggDcihoamBeepkenBklmplfDelfjXBbbmhj
+kDHgadfBgmajfjBblcpFBllliinDpnpghfBhkdgalBkbpinbDpaifcjBehNhiDpj
+aphjBhecefhBohimmiDenieknDIpbcdBjkaiUBjhjabpBccpnjgDjjckfiBepkpe
+eBpgjhpnDjofogjDodkfclBodkfUBndendcBnfhidjBnnceYDhamoaiDpdbpncDo
+pdiafBnfajmiDScdajBngfggmDpakhogDdlhaeoLaiFblGodkfUDieTipDfkpfdj
+DddmejbDjkjj1GonTAdljfgfaiGDjpfkDngfggmFohbnkhdlmgnmlfLbckfF1bhl
+hfbAenieinApldkdaAIickcAhmWlcFNajokAUlbBAmkfembAgpbcNChkkfamCklm
+ppfAmijillAepPpdAphhfoaAoajmOCQcbcnCfgjpklAlemicgCnmnhWCnmZoaAgf
+kkcaCdjleciCmaUbaClcjnbpCbekoehCddmeWCjiemcfCchkacjCjbonbmCcgfdd
+fChecechCidcpomAieTC1cagdboCepkpfeCMnmYCnbccblCnjfpcgCelokceCcaI
+dbCmlbaahCgoSobAckdkccCpldkcaCcmgfnjACfhblCpfljjkAFjlnfAeifaamCm
+oiijcAoooloaAjgedmlAhlbecoAjcmlQAomcpdlAodmhniAbndiohGniibpdGmkd
+cieAncEboDpclafaAbaojlhGbeCYAbdWNDdekcdeGhfjdbiDZjbmnDoigkilDemd
+hejDmpggjfDnnlfVBmkdcmeDpaifcjBgkJjeDbokhciBfmcakbDkgjlbeBZldekB
+ejjnoaDhdZcbBhmpcnaDmiahFBbbmhfkBmlkbefBhcpjmpDggphheBmaUcaBfiki
+afBjfnedjBmmhpmiDoddghkBpcIfpBcpgoNBmobjpbDmcbhdgBgknoWBgknodbBn
+kblnmDcjonMBZjbenBgkJbeBAoiljDbahkdgBfgjpUBemdhdjBenieFBbenaieDf
+mipicDifhmpaDbppeamBajpjoaDbbdgamBbjhdjhDkidfonDThbkmGplfmonGonT
+hoDnipajeDbheifaDenieinDidmamkGncEnoJdgLFGdfopdiDfhUdbFcgoeidLhj
+ficiFckdkjcFpcIepAemdhijAhcikeoAggphkeAcpnnceAbeCogAZccmmAfimknc
+AmgnmafClcjnapCpimcVCjdkjocA1hjaiCapjmNCcblabcChnCdfCfpcjolAMKdd
+CeonbWCfpahaoCjmkcddCjpmndkCpaifcjCbnmjdfCpnihfeCjakaZChbkmdlCll
+chC1ogkodfCbaojehCfgaoFCpfnlbhConTeoCcpnndeClbBfmChdZcbCgahgcpCg
+ckbdgCcbbpdeCmdnddlCpkhobkCehNaiCnbccclCgljkchCpgjhpnAoohmbpCopd
+imfAThbomAmnmmamCojlhkpAibVofAllchmpAikiogeAamRolAjjllfgAiklambA
+obalbdGFakfhGjlfffpAWmdndGjkhhbmAfdafSGhecejhFpaXaiDmcigkhGnhSda
+DjlffBDeglgjdDKnehiDHmpkgDbhlhOBnipaneDcblaccBdgmnllDfjbhchBplml
+moDjglcbmBbjhdehBhelfafBjkhhcmBibjfNBmbkieeBlgiefmBhlbeeoBbfbnaj
+BMKhdBYibdfBndenccBdkcdekBpkhoakBCfhhlBhafpghBfmipccBkifhbkBnaee
+eiBdjleZBFcmeeBnhSbaBlikpgdBpegmfgBZldckBcncbQDLeoIBfgjpUBmfcaPB
+dhijIBljinmgDjmmemaDbjhdahBepkpbeBAoipjDiaeiapBkmknliDeglgpdDbaf
+idjDichdegDbheijaDcmnejkDjniaggDemdhijDgnohplGnfhigjGldhlhcGklAb
+hDpkonolLncEnoLglclhgFmlkbmfFjglcemAggphieAlbBgmAkhhjkhAkaijhaAc
+fhfocAfjigniAogCoeAbokhaiCokjfbcCkjkeaoCcpnnVCfefcbhCjepgXCWmdcd
+CplfmFClefjbfChhcnICeonbWCmdndclCegjeegChgoaemCjdkjHCXplelCofW1C
+hlidgpCJaffcCmbkifeCmjhgeoCpkhofkCdipifcClfkgdjCfgaoMCmmMelCkbng
+geCiipedlChnnaedColocegCigfkedCgg1egClgpdcnCnhdebpCYbcdeCenpdcoC
+ndnobaCjmkccdCafmfopApmkjOCmeHTCVohmmAdackojApmbindAenieinAglcln
+gAefehhcAdbjjkkAhjficiFndJgdLnjfpdgAbjhdfhGpclanaFjgcbioGljpmihL
+mnmmamDnipapeGdjleeiDmobjlbDiipejlDheegjeDjjckliDiigdpnDRJofDnpo
+ablBOnoocDjeihcfBjkhhpmDbenaceBmkdceeBedbmblBdeiadhBdgklboBlkeje
+mBojeifoBclihfgBKedckBmfKhcBnkkmekBnlpjABnohbfkBaoDdaBcihohmBgah
+ggpBbhlhIBnkblLBnohbfkBjhjagpBbahkfgBdd2BehhcgjBiaeifpBnhSPBjmdd
+ccBZccemBmijiUBFakehBccioefBkpcfVBnlpjKDgckbXBThbbmBehhcajBoofkb
+cBfkpfnjDoddgpkDmndlioDedbmilDbmhmkbDialhkaDceljhmDggphieDclihXD
+kbpilbGckkjjdGedbmolGpkonglLBaobmFcoQkbFgmajpjFhbFekAgfkkiaAhihk
+ifAohplkjAajbljoAdgklnoAggphoeAipmcpfAhghbalCjeihbfCfjigbiCjfgfb
+iCglclcgCbkfbckCbenadeCYibefCclbidfCcagdeoCmbmkWCchkaejChoimfjCe
+npdfoCmdndUCibcggcCmndlgoCnjfphgCjfgfZCffdagkCbndighChbblgnCimnl
+ZChghbUCenbfgmCnmnhWCVohgmCjniafgCjjckfiCRclfhCfmipfcCjhQfaChdZI
+CpegmdgCknpkLCGfcdgCkkpbccCelmichCQcbTCoebeTCeiBTCNajokAmeHonAcc
+pnngAdjlekiAmkfembAMnmigAniibjdAgknopbFfehekeFXgkTApkonollkifhmf
+aFipoehcGallfcgGkkicbbDPbdcbDjmmegaDOnokcDmkdckeDenbfkmDpaifmjDK
+gfphDbahkpgDapalbfBggphVBmpphcdBjnbbbfBVohcmBhmpcPBifhmdaBfmipHB
+ommadjBIpbfdBioYgaBnlpjfoBfkgeelBJafhcBcancfpBodkfUBbbmhgkBccpnf
+gBiejohnBnojdhhBefnigaBjlogMBfpjigmBgg1hgBodmhZBipmcffBnhdegpBjj
+ckZBegjefgBbenaeeBahpafgBmijiUBlgpdenBjkjjejBibVcfBinjhboBdjngcf
+BFcmceBocojbfBMgnbfBomcpplDmaUEBjcmlBDmfKlcDcblalcDnejkkgDpaifij
+DgfkkiaDnhdecpDnhdeopGojeikoGjoopkhGE3bfbnejFdjlemiFigdiXAelmieh
+AKnehiAdekcjeAcihokmAIpbmdAgdoonkAfhUpbAapjmNCmndlaoCmmhpbiCakZc
+cCpkonclCibVdfCcnlcFCfeodefCiejoenCcpnnfeCdkjcUCddmeWCilgmghClgi
+egmCcfYhbCggphheComfbhiClfbfhlCdgLhnCgnmfhoCUlbhpCqUlbhpCgnmfhoC
+dgLhnClfbfhlComfbhiCggphheCcfYhbClgiegmCilgmghCddmeWCdkjcUCcpnnf
+eCiejoenCfeodefCcnlcFCibVdfCpkonclCakZccCmmhpbiCmndlaoCapjmNCfhU
+pbAgdoonkAIpbmdAcihokmAdekcjeAKnehiAelmiehAigdiXAdjlemiFbfbnejFE
+3bfbnejGdjlemiGigdiXDelmiehDKnehiDdekcjeDcihokmDIpbmdDgdoonkDfhU
+pbDapjmNBmndlaoBmmhpbiBakZccBpkonclBibVdfBcnlcFBfeodefBiejoenBcp
+nnfeBdkjcUBddmeWBilgmghBlgiegmBcfYhbBggphheBomfbhiBlfbfhlBdgLhnB
+gnmfhoBUlbhpBsUlbhpBgnmfhoBdgLhnBlfbfhlBomfbhiBggphheBcfYhbBlgie
+gmBilgmghBddmeWBdkjcUBcpnnfeBiejoenBfeodefBcnlcFBibVdfBpkonclBak
+ZccBmmhpbiBmndlaoBapjmNBfhUpbDgdoonkDIpbmdDcihokmDdekcjeDKnehiDe
+lmiehDigdiXDdjlemiGbfbnejGuxE7gogpgjhdgfdbcidbcndbdgcjfegpgogpgj
+hdgfddcidbcndbdgcjfpengphchaZE31uxE7efeofgcafagmhfgdglcaepgg1E50
+=1489869
+  

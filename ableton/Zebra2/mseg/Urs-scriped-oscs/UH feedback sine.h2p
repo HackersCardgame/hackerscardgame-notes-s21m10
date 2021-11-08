@@ -1,0 +1,31 @@
+#defaults=no
+#cm=OSC
+Wave=2
+<?
+
+float PI = 3.14159265;
+float Wave[ 128 ];
+float phaseInc = 1.0/127.0;
+float feedback = 0.f;
+float feedBackInc = 1.f/32.f;
+
+for ( int table = 1; table <= 16; table++ )
+{
+   float phase = 0.f;
+   float out = 0.f;
+   float f_out = 0.f;
+
+   for ( int i = 0; i < 128; i++ )
+   {
+      out = sin( (phase + f_out * feedback) * 2.0 * PI );
+      Wave[ i ] = out;
+      f_out = f_out * 0.9f + out * 0.1f;
+      phase += phaseInc;
+   }
+
+   Selected.WaveTable.set( table, Wave );
+   feedback += feedBackInc;
+   feedBackInc *= 1.2;
+}
+
+?>

@@ -1,0 +1,23 @@
+     
+     LEVEL 3-E soundset for u-he Zebra
+     *************************************
+
+Level 3-E is a collection of 90 classic chiptune patches inspired by two popular game consoles from the late 70s to mid 80s. From arps, basses and leads to percussion and nostalgic SFX, the pack contains everything you need to create a fairly authentic sounding chiptune track.
+
+All instruments within this collection were created by Horatiu-Cristian Petrila, also known as 3ee and were optimized with modulation wheel and at least a pair of XY performance controls.
+
+Requirements: u-he Zebra 2.6 (rev 1559) or higher, host program (DAW) with VST or AU, RTAS or AXX support.
+
+Installation: Unpack .zip file and move to Zebra's presets folder found in one of the similar locations:
+ 
+  MAC: MacHD/Library/Audio/Presets/u-he/Zebra2
+  PC: ...\Vstplugins\Zebra2.data\Presets\Zebra2 or 
+       ...\Documents\Zebra2.data\Presets\Zebra2
+
+Contact and support: 
+
+  http://3ee-sounddesign.blogspot.com
+         3ee.sounddesign@gmail.com
+
+
+********************************************************************************

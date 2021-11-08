@@ -1,0 +1,101 @@
+ZEBROSCILLATORS version 2   - 17/4/11
+                version 2.5 - 02/5/11
+
+by Sendy (Alexandra Cornhill)
+
+
+
+------------
+Introduction
+------------
+
+Throughout synthesis history, oscillators have for the most part been something of an afterthought. Sound shaping has typically been done by filtering, DSP, distortion and further processes. But something nagged at me. Like many people, my favourite part of synthesis, the part which made it come alive for me, was functions which affected the raw geometry of the waveform. PWM, oscillator sync, waveshaping - these alter the waveform on a geometric level, providing a very direct way of shaping sound at it's source.
+
+This is a pack of OSCILLATOR PRESETS for Zebra 2.5, which are all hand-crafted custom wavetables made by me, in which the modwheel steps through the entire table, to allow easy previewing of it's harmonic evolution. These wavetables take advantage of the way Zebra can morph between two arbitrary waveforms directly using moving breakpoints, with an aim to create interesting variations, transformations and evolutions of classic synth waveforms. These include, but are not limited to, variations of PWM, oscillator sync effects, waveshaping, distortion, serial waves, and waveform morphing. Care has been taken to construct the breakpoints so that at any given time, spectral movement as opposed to crossfading is the predominant feature. (I take issue with crossfades dressed up as morphs!)
+
+I approached this collection inspired by modern synths which have various oscillators with a different parameter to modify it's shape (usually called PWM, which is a misnomer but one which has stuck!) such as Vanguard, the Alesis Ion, the Roland JP-8000 - and also synths which have continuously morphable waveshapes, such as the new Moog instruments.
+
+Zebroscillators currently holds 94 waveforms, categorised with the prefixes SIN, TRI, PUL, PEAK, SAW and MISC. Note that to a certain degree, my naming scemes are somewhat arbitrary and reflect the fact that this is a fairly unexplored area of synthesis.
+
+Below is a brief outline of what to expect from each category, though it is far from exhaustive, and a lot of the transformations defy a clear language-based explanation without clouding the situation or maxing out acceptable levels of audio geekery (*sigh*.. I fear it may already be too late for me...)
+
+
+SIN - contains sine waves, or close approximations of them (it's difficult to make a perfect sine in GeoMorph mode - though I got very close) morphing to other waves, or having transformations applied.
+
+TRI - similar to sine, but it's simple, linear geometry opens the door for a wide variety of schemes with which to mould it, turning a spectrally dull wave into one where the overtones sometimes drown out the fundamental.
+
+PUL - contains variable pulse waves, variations on classic PWM such as the bi-pulse (a tri-state version of PWM) and merging (not mixing) moving notches with single or multiple cycles of PWM. Please note that I haven't included a classic PWM table, as it's trivial to use Zebra's own internal oscillator features to create this from a sawtooth waveform (or any other bright wave!).
+
+PEAK - waveforms are made out of groups of tiny impulses or 'peaks', which move or change under various schemes in relation to each-other, creating very bright, buzzing sounds with barely any fundamental, which are reminiscent of insects.
+
+SAW - our old friend the sawtooth waveform - a versatile beast but usually fixed in place - will now perform a number of contortions and spectral stunts for our amusement! Including various approaches to impose the classic PWM sound onto the sawtooth waveform, simulations of distortion and wave-wrapping, and more, we can see this static, immutable staple of synthesis in a whole new light.
+
+MISC - tables which do not have a dominant flavour, or sweep between several families of waveforms, belong to this category.
+
+SPEC - these oscillators use Spectromorph as opposed to Geomorph, which is quite a different animal altogether ;). Spectromorph treats the oscillator display as a morphing graph representing the levels of harmonics across the spectrum (hence SPEC). This tends to produce filtered sawtooth sounds, but I have created some unique filters which take advantage of the surgical precision that Zebra affords. If you want a filtered square or moving pulse width, activate inverted phase mode in Zebra's oscillator settings, and set the phase offset to taste. You could also use the "odd for even" Osc FX to kill even harmonics, creating a pure filtered square sound, or use other modifiers to create new shapes - bear in mind however, that this may not sound quite like sending a square oscillator through a filter - this is because the waveshaping happens AFTER the spectral filtering. Another quality to remember is that the filtering in this mode is applied AT THE OSCILLATOR LEVEL - meaning that by default the filter will track the keyboard quite naturally. If you wish to negate this, experiment with setting keyfollow to modulate the Spectromorph profile downward as you play higher up the keyboard.
+
+
+Tables have a pre-prefix prefix of 00_ so that they will always float to the top of a file list in Zebra and will stay together.
+
+
+
+------------
+USAGE NOTES:
+------------
+
+Note that some wavetables will sound rather similar, despite being constructed differently. This is characteristic of the deceptive psychoacoustic link between waveform geometry and human auditory perception (excuse me, I swallowed a dictionary earlier!). However - all is not lost - each waveform represents a unique geometric process, the nuances of which can be brought out using Zebra's internal oscillator effects. 
+
+I personally recommend using a good software oscilloscope such as the excellent and free s(M)exoscope by Smartelectronix. Tune the 'scope to your favourite key and save it as a preset (mine is tuned to As and Es), send this note to Zebra constantly via midi or holding a key down, and then explore each wavetable in combination with various oscillator effects and features (hardsync anyone?!). Modulating an effect AND a wavetable position things can get pretty wild!
+
+Also, remember that although these are all designed as Geomorph waves - there's nothing to stop you switching Zebra's oscillators into Spectromorph mode! Each waveform then becomes a moving graph describing the total spectral content! A lot of these shapes sound really good in this mode.
+
+Finally - each wavetable includes information which can be read by clicking 'info' at the top of the Zebra GUI. This will provide a brief attempt at explaining what is going on down below.
+
+
+
+----------------
+COPYRIGHT NOTES:
+----------------
+
+These wavetables were a labour of love, and are provided to fellow Zebra users to use any way you want. In a way, they are a way of saying thanks to the U-he team for making such an awesome and affordable synthesizer, and to outline the power of one of Zebra's main assets - it's perfect implementation of morphing wavetables. However, IF you are a sound designer or musician, and you find these waveforms useful and use them significantly in your work, a mention such as "Some raw waveforms designed by Alexandra Cornhill" as well as a link to my music site - 
+
+www.soundcloud.com/sendy 
+
+- would be highly appreciated!
+
+Another way to help me out is to visit my Soundcloud site and listen to my music - and tell your friends to listen if you like it :) 
+
+REGARDING USE IN COMPILATIONS AND THE LIKE:
+
+You are free to archive these wavetables, add them to collections, convert them to other formats, and the like, provided all credit to me as the creator of these tables, and this readme file remain with it and intact. I'd also appreciate it if you let me know about it, but this isn't essential. I just like to keep track of what people are doing with it.
+
+
+
+--------------
+VERSION NOTES:
+--------------
+
+This is version 2.5. The previous version, which was also the first edition, was called 'exotic oscillator effects' or something (I think ZEBROSCILLATORS sounds more catchy!). Other improvements from the last version include:
+
+* new category types, including Spectromorph filter shapes.
+* over DOUBLE the number of wavetables, including many new and creative ideas.
+* many transitions have been smoothed out, particularly the 'around the world' series, preventing sudden jumps in timbre.
+* improved table naming scheme, with MISC category for the uncategorized tables.
+* some related wavetables were merged and consolidated into one table for more flexible sweeps.
+* New name. ZEBROSCILLATORS!
+
+
+
+----------------
+ABOUT THE AUTHOR
+----------------
+
+You can find my music at:
+
+www.soundcloud.com/sendy
+
+I am not a fan of genres, however if forced I would use the terms breakcore, braindance, experimental techno, glitch, breakbeat cutups, oldschool jungle, chiptunes, electro-pop and progressive.
+
+If you wish to email me, send me a message on my Soundcloud site!
+
+Sendy (Alexandra Cornhill)

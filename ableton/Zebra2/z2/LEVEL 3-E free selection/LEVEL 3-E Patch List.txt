@@ -1,0 +1,114 @@
+Patch list:
+
+Template: 2
+
+- _Template1
+- _Tia 32 notes
+
+
+Arp: 10
+
+- Aquarp
+- Boss Drama
+- Classic Blip
+- DownUp
+- Meloodee
+- Multiples
+- Seq Pause
+- Seq Pause2
+- Seq Tiassault
+- Wonder Sprocket
+
+
+Bass: 10
+
+- Basic Bend
+- Basic Bend2
+- Basic Triangle
+- BassNess
+- Danger05 Alien
+- QPulse
+- Tia Bass
+- Tia Engine
+- Tia Saw
+- TIAction
+
+
+Lead: 13
+
+- After Dark
+- Arpbyte
+- Basic Chorus
+- Basic Pulse
+- Basic Pulse2
+- Blip
+- Donkey Jump
+- Far East Lead
+- Lake Nest
+- Major Double
+- Minor Fire
+- Tia Pulses
+- Zombie Frog
+
+
+Perc: 15
+
+- Basic BD
+- Basic BD2
+- Basic CH Loop
+- Basic CH
+- Basic CH2
+- Basic CP
+- Basic SD
+- Basic SD2
+- Bonk
+- Impulse
+- Kap
+- SD Naked
+- SD Tarsh
+- Tia Brick
+- Tia Step
+
+
+SFX: 40
+
+- Bank Heist
+- BigUp
+- BigUp2
+- Bzerk Bomb
+- Bzerk Laser
+- Coin$
+- Cosmic Ark IN
+- Cosmic Ark OUT
+- Disintegrate
+- Drak Select
+- Fire
+- Flame
+- Frog Leap
+- Frost Sink
+- Gopher Tease
+- Jump Flat
+- Jumpy
+- KM Echo Drop
+- KM Item
+- Metallic Sparkle
+- Plastar
+- Race Car proto
+- Score Count
+- Shoot Low Splash Hi
+- Shoot that Dawg
+- Shuriken
+- Ski Hunt
+- Spider
+- Sword Clash Hi
+- Tia Atlantis Boom
+- Tia Canon
+- Tia Cop Jump
+- Tia Death
+- Tia In Flight
+- Tia Jump
+- Tia Laser
+- Tia Trap
+- Warp Zone
+- Water Item
+- Water Warp

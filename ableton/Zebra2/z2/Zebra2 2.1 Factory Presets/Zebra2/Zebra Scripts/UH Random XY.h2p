@@ -1,0 +1,74 @@
+#defaults=no
+<?
+
+int fractionalType = 1;
+int first_XY_Target = Core.XY[ 4 ].Down[ 8 ].id + 1;
+int last_XY_Target = Global.numParameters - 1;
+
+int iterations = 0;
+
+for ( int xy = 1; xy < 5; xy++ )
+{
+   for ( int slot = 1; slot < 9; slot++ )
+   {      
+      int target = -1;
+   
+      for ( 1; 1; 1) // same as while( true )
+      {      
+         target = rand( first_XY_Target, last_XY_Target );
+            
+         if ( Global.Parameter[ target ].type == fractionalType )
+         {
+            int moduleID = Global.Parameter[ target ].moduleID;
+            
+            if ( Module[ moduleID ].active )
+            {
+               Core.XY[ xy ].TargetX[ slot ] = target;
+            
+               float value = Global.Parameter[ target ];
+            
+               float minInfluence = Global.Parameter[ target ].min - value;
+            
+               float maxInfluence = Global.Parameter[ target ].max - value;
+         
+               Core.XY[ xy ].Right[ slot ] = rand( minInfluence, maxInfluence );
+               Core.XY[ xy ].Left[ slot ] = rand( minInfluence, maxInfluence );
+            
+               break;
+            }
+         }
+         
+         iterations++;
+      }
+      
+      for ( 1; 1; 1) // same as while( true )
+      {      
+         target = rand( first_XY_Target, last_XY_Target );
+            
+         if ( Global.Parameter[ target ].type == fractionalType )
+         {
+            int moduleID = Global.Parameter[ target ].moduleID;
+            
+            if ( Module[ moduleID ].active )
+            {
+               Core.XY[ xy ].TargetY[ slot ] = target;
+         
+               float value = Global.Parameter[ target ];
+            
+               float minInfluence = Global.Parameter[ target ].min - value;
+            
+               float maxInfluence = Global.Parameter[ target ].max - value;
+         
+               Core.XY[ xy ].Up[ slot ] = rand( minInfluence, maxInfluence );
+               Core.XY[ xy ].Down[ slot ] = rand( minInfluence, maxInfluence );
+            
+               break;
+            }
+         }
+         
+         iterations++;
+      }
+   }
+}
+
+?>

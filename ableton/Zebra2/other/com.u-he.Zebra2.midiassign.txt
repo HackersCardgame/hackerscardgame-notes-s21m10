@@ -1,0 +1,16 @@
+1:18=PCore:Y_2, normal, 0, Continuous7bit, No //Core:Y2
+1:19=PCore:X_2, normal, 0, Continuous7bit, No //Core:X2
+1:20=PCore:Y_3, normal, 0, Continuous7bit, No //Core:Y3
+1:21=PCore:X_3, normal, 0, Continuous7bit, No //Core:X3
+0:0=main:CcOp, none, 0, Encoder127, No //Main Loop Circuit:Output
+0:0=main:CcOp, none, 0, Encoder127, No //Main Loop Circuit:Output
+0:0=main:CcOp, none, 0, Encoder127, No //Main Loop Circuit:Output
+0:0=main:CcOp, none, 0, Encoder127, No //Main Loop Circuit:Output
+0:0=main:CcOp, none, 0, Encoder127, No //Main Loop Circuit:Output
+0:0=main:CcOp, none, 0, Encoder127, No //Main Loop Circuit:Output
+0:0=main:CcOp, none, 0, Encoder127, No //Main Loop Circuit:Output
+1:16=PCore:Y_1, normal, 0, Continuous7bit, No //Core:Y1
+1:17=PCore:X_1, normal, 0, Continuous7bit, No //Core:X1
+1:22=PCore:Y_4, normal, 0, Continuous7bit, No //Core:Y4
+1:23=PCore:X_4, normal, 0, Continuous7bit, No //Core:X4
+uous7bit, No //Core:X4

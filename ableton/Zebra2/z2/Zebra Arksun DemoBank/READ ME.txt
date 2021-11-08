@@ -1,0 +1,38 @@
+________________________________________________________
+
+Z E B R A    A R K S U N    D E M O    S O U N D B A N K
+________________________________________________________
+
+Copyright (c)2009 Arksun 
+INITIAL RELEASE DATE: 20TH MARCH 2009
+
+Thank you for downloading this selection of Arksun professional presets created for U-He Zebra VSTi/AU soft synth. This demobank is a sampler of the full 128 sound Zebra soundbank which is available to buy at www.arksun-sound.com
+
+
+They were created using Zebra version 2.3 . If you are using an older version, please upgrade to at least this version for this soundbank to work properly. 
+ 
+To use these 16 presets simply unzip the Zebra Arksun Soundbank folder into your Zebra presets folder and they should show up the next time you start Zebra.
+
+All presets use all 4 XY Performance pads to further shape the sound, arranged thus:
+
+XY PAD 1:  Filter
+XY PAD 2:  Waveshaping  (from subtle changes to a totally different sound!)
+XY PAD 3:  Other  (reserved for things not in the other catagories)
+XY PAD 4:  FX  (Delay, Reverb etc)
+
+Double Clicking them returns them to the center position which is also the default position for the sound.
+
+
+You are free to use these presets musically in any way you see fit and use them in commercial music releases. 
+
+You may not however distribute this soundbank (or any part of the soundbank) in any shape or form. Also this soundset may not be made part of a product for which a fee is charged. 
+
+For further information on Arksun Soundbanks:
+
+website: http://www.arksun-sound.com
+e-mail:  info@arksun-sound.com
+
+I hope you enjoy these presets and find them useful.
+
+
+

@@ -1,0 +1,34 @@
+Arps & Basses - 25
+Emulations - 45
+	Artists, Eras, Films, Synthesizers - 15
+	Physical Models - 12
+	Video Games - 18
+Keys & Stabs - 12
+Leads - 28
+Mallet & Pluck - 10
+Organs - 7
+Pads & Strings - 18
+Percussion - 18
+Sweeps & FX - 16
+
+ADV - Advanced
+ARP - Arpeggio
+ART - Artist/Band/etc
+BAS - Bass
+BSC - Basic
+FLM - Film-based
+FX - Effects
+KEY - Keys
+MLT - Mallet (Bells, marimbas, etc.)
+MMBN1 - MegaMan Battle Network 1
+MMX3 - Mega Man X3
+ORG - Organ
+PAD - Pad
+PHYS - Physical Model
+PLK - Pluck
+PORT2 - Portal 2
+STB - Stab
+STR - Strings
+SWP - Sweep
+SYN - Synthesizer emulation
+WUB - Dubstep wobble

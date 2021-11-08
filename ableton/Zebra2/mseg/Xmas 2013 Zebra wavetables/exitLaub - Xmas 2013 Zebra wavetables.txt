@@ -1,0 +1,23 @@
+Hi folks!
+This is a collection of 19 wavetables for Zebra/-lette. The original waves i made with different synths
+like Microwave2 + SoundDiver, Yamaha SY99, Kawai K5000, Korg Poly800, Kawai 100F and NI Razor.
+Then i put together some wavetables with Wav2Zebra. 
+Due to the lack of time for making some nice presets or even a complete soundset i decided to contribute 
+them to the Zebra community as a little Christmas present. Perhaps you can find use for them and make 
+some interesting or even useful sounds.
+
+Would be nice to hear some sounds you made with these waves. Or even better if you would make them public
+here.
+
+There are two folders:
+(1) exitLaub - Xmas 2013 - wavetables
+This contains the oscillator presets
+(2) exitLaub - Xmas 2013 - examples
+19 Zebra presets. These are only simple sweeping pads to showcase the wavetables.
+
+Well, i'm curous what you make out of them.
+
+Cheers,
+Gerald  - exitLaub -
+
+

@@ -1,0 +1,12 @@
+License agreement and terms of use:
+
+This license agreement is between you (the licensee) and Horatiu-Cristian Petrila, the sole distributor of this sound set. This sound set must not be distributed without permission, so anyone who intends to lend, copy or otherwise distribute the sound set must read this license agreement before downloading, purchasing or otherwise obtaining the sound set that comes with this license.
+
+After purchasing this sound set, you can use it for any commercial or non-commercial musical works. The demo selection is free of charge but also subject to this license.
+
+You may not distribute reverse engineered, re-sampled, copied or otherwise replicated patches of this sound set commercially, free of charge or otherwise. That includes but not limited to sample libraries or sample based synthesizers. However, you are allowed to create such derivatives for your own musical works as long as these derivatives are only distributed in the context of your musical works.
+
+You are allowed and should make a backup copy of the sound set and store it in a safe location for future recall, in case something goes wrong with the original files.
+
+The license to the sound set may not be given away or sold.
+31 March 2014 - 3ee-sounddesign

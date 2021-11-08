@@ -1,0 +1,9 @@
+Sometimes when a preset is too busy or dense sounding, you can trim it down really quickly and really easily, by muting one or more of it's parts or layers. 
+
+See - Solo_Parts_Of_A_Patch.jpg
+
+In this screenshot, the 1st and 3rd parts of that patch are muted, and only the 2nd part is playing, which has tamed the sound considerably. 
+
+To *Mute* or *Unmute* a part of a patch, just click on the square icon to the right of the *main* label. 
+
+To *Solo* one part of a Zebra patch, you just need to *Mute* the other parts by clicking the boxes, until all of them are red except the part you wish to hear soloed.

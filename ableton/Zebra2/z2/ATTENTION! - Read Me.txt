@@ -1,0 +1,71 @@
+Product Webpage:
+http://xenossoundworks.com/zebra.html
+
+Forever 80's contains 64 vintage synth sounds from one of the most innovative decades of the 20th century - the 1980's - and covers many famous sounds heard in hit songs during that era.
+
+Full Patch List:
+------------------
+BA Analog Bass
+BA Crushed
+BA Digigrit
+BA DX Bass 1
+BA DX Bass 2
+BA DX Bass 3
+BA DX Bass 4
+BA DX Bass 5
+BA DX Slap Bass
+BA OB-8 Bass
+BA PPG Bass
+BA Rapid Line
+BA So Electric
+BA Thick Moog
+BA Thriller
+BA Tom Sawyer
+BA Too Much Time
+BA Warm Analog
+KB FM Ballad E. Piano
+KB Gospel C3
+KB Hybrid E. Piano
+KB Jazzy B3
+KB New Wave Harpsi
+KB P5 1960's Organ
+LD 80s Poly Lead
+LD Brassy Lead
+LD Classic Rock Lead
+LD Elevation
+LD Flash Light
+LD Funkadelic
+LD Funkmeister
+LD Moog Lead
+LD Porta Saw
+LD Porta Square
+LD Prophet 5 Sync
+LD Square Soup
+LD Squishy
+LD Sunglasses
+LD Tasty Pulsewave
+LD The Phat Lady Sings
+PD Analog Strings 1
+PD Analog Strings 2
+PD Big Juno Pad
+PD Brittle Pad
+PD Classic Ooh's
+PD D50 Bell Pad
+PD Juno 106 Strings
+PD Lo-Fi Choir Pad
+PD Prism
+PD Soundtrack
+PD Sweeping Harmonics
+PD Warm Backdrop
+SY Comp Synth
+SY Digital Arp Food
+SY DX Bells
+SY DX Tubular Bells
+SY Flutey Texture
+SY JP-8 Brass
+SY Juno 106 Dark Plucks
+SY Meaty Polysynth
+SY Realistik Brass
+SY Soft Brass
+SY Veridis Quo Arp Food
+SY Wide Berth

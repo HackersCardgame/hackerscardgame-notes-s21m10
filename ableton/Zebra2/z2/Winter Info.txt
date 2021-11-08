@@ -1,0 +1,114 @@
+     
+     Winter sound set for u-he Zebra 2.5
+     ***********************************
+
+Winter is a collection of 64 expressive instruments with an overall "icy-cold" refreshing character not limited by any particular style or genre, but few instruments will have a slight EDM feel, although "cinematic" might be a good term to describe the overall collection.
+
+All instruments within this collection were created by Horatiu-Cristian Petrila also known as 3ee and were optimized with Modulation Wheel (MW), After Touch (AT) and XY-control assignments.
+
+The XY performance controls in particular will significantly change the sound in most cases, so the number of patches can easily be doubled. I highly encourage everyone to play around with all of the assigned controls and find what best suits your needs. 
+Each patch also includes a bit of extra information that can be accessed by clicking "i" located top-right side of Zebra's graphic interface.
+
+
+Requirements: u-he Zebra 2.5.2 or higher, host program (DAW) with VST or AU, RTAS support.
+
+Installation: Unpack .zip file and move to Zebra's presets folder found in one of the similar locations:
+ MAC: MacHD/Library/Audio/Presets/u-he/Zebra2
+  PC: ...\Vstplugins\Zebra2.data\Presets\Zebra2 or 
+       ...\Documents\Zebra2.data\Presets\Zebra2
+
+Links, contact and support: 
+
+  http://3ee-sounddesign.blogspot.com
+         3ee.sounddesign@gmail.com
+
+Special thanks to: -Urs Heckmann and the u-he team for Zebra 2.5
+                   -Brian Rzycki for his advice and help.
+                   -the friendly and helpful u-he community @ www.kvraudio.com
+
+********************************************************************************
+
+Patch list:
+
+Bass:
+
+-Dark-FM-Den
+-Iglu
+-Needle
+-PolyPulse
+-Refrigerator
+-Sharp
+-Subzer0
+
+Monophonic:
+
+-Fuzzy Bits
+-Glacier Split
+-Harsh
+-Heiss Tea
+-Ice Cream
+-Ice Cutter
+-PWM Superstar
+-Snowball
+-ZN
+
+Pad:
+
+-Arctic Depths
+-Aurorae
+-Blizzard
+-Chromium
+-Crystal Drone
+-Deserted
+-DX Shrine
+-Ethereal Fjord Ens
+-Icicles
+-Krystalix
+-Lighthouse Breeze
+-Northern Strings
+-Reflections
+-Snow Ensemble
+-Snowbow
+-Spektralis
+-Winter Warmth
+
+Polyphonic:
+
+-Bell
+-Cozy Vibes
+-Cryogenic Bells
+-Cryorganic
+-DX EP
+-DX EP2
+-Frozen Formant
+-FroZen
+-Grand Opening
+-Ice Drops
+-Iciclophone
+-Mirrors
+-Santa's Organ
+-Snowflakes
+-Snowie
+-Stalactites
+-Totem Polar
+-Toy Piano
+
+Sequence:
+
+-Antarcticarp
+-Exploration
+-Fractured Ripples
+-It's Snowing
+-Stutter Chip
+-Transcendent
+
+Sound Effects:
+
+-Around Absolute 0
+-Howling
+-Ice Berg
+-Shipwreck
+-Snow Walk
+-Under-ice Paradise
+-Wind Chimes
+

@@ -1,0 +1,216 @@
+
+======================================================================
+
+              ------------------------------------------
+              ZEBRA FOOD: 143 patches for U-he Zebra 2.x
+              ------------------------------------------
+
+
+I had lots of fun creating these patches. I hope you like them.
+Special thanks goes out to Urs Heckman for releasing the beast!
+
+- Menno Meijer
+  menno.meijer@hotmail.com
+
+
+
+Patch Index:
+
+
+ARPS
+----
+
+Berliner Arp
+Crazy Arp
+Delay Pluck
+Happy Arp
+Hi-NRG
+Jungle Fever
+Percamon
+Rhythm Guitar
+Tension Arp
+Trip-a-Tronic
+Zebraqatsi
+
+
+BASS
+----
+
+Acid Bass
+Ana Bass
+AON Bass
+Ballsy Bass
+Chameleon
+Dirty Taurus
+Electro Bass
+Fretless Bass
+Funkateer
+Happy Slapper
+Jazz Bass
+Krafty Bass
+Maximus Acidus
+Model D
+MS Bass
+Night Bass
+Radium Bass
+Short Bass
+Solid Bass
+Standup Bass
+Transformer Bass
+Wet Rezz 
+
+
+BRASS
+-----
+
+Big Brass
+Brass Ensemble (Narrow)
+Brass Ensemble (Wide)
+Hard Synbrass
+Heroic Horns
+Light Synbrass
+Midnight Split
+Muted Trumpet
+Power Petz
+Trombone
+Trumpet 1
+Trumpet 2
+Tuba
+
+
+FX & ATMOS
+----------
+
+Bubbling Under
+Cosmic War
+Falling Down
+Hydraulics
+Ice Cubes
+Ice Rain
+Inner Workings
+Kargian
+Knock Knock
+Lab 2600
+Little Birdie
+MOAB II
+Mount Etna
+Nerve-Wracking
+Nomans Land
+Radio Moscow
+RotoMoto
+Soda Pop
+Speed Racer
+
+
+KEYS
+----
+
+Celestial
+Church Organ
+El Cheapo
+Electric Keys
+Honky Tonky
+Metal Drops
+Musicbox
+Organic
+Pearl Ambience
+Ring Clavinet
+Sweet DX
+The Grand
+
+
+LEADS
+-----
+
+All That Jazz
+Anna the 5th
+Burning Lead
+Electric Singer
+Fishfood
+In da House
+Isao-San
+Kiss the Sky
+Liberty Bell
+Little Lead
+Mini Zebra 1
+Mini Zebra 2
+Mini Zebra 3
+Noisy Flute
+Party Animal
+Poppin
+Purple Funk
+Razor Lead
+Satisfaction
+Saturn Lead
+Slow Saw
+Starshine Lead
+Very Saxy
+
+
+PADS & POLY
+-----------
+
+Bella Donna
+Cee-Es-Eighty
+Creation
+Ghostly Glow
+Holy Mountain
+Im Not In Love
+Infected 
+Junoesque
+Kosmik Klaus
+Liquid Tranquility
+Magic Touch
+Modernity
+Promenade
+Saturn-8
+Spaced Out
+Stars End
+Synrise
+Twingo
+Wahnfried
+
+
+PERCUSSION
+----------
+
+A-Go-Go Bells
+Clap C1
+Claves
+Closed Hihat (8-bit)
+Conga
+Disco Toms
+GaGa Drums
+Gong
+In The Air Toms
+Kick It!
+Mixed Percussion
+Samba Whistle
+Sampled Hits
+Shaker
+Snappy Snare
+Steel Drums
+
+
+STRINGS
+-------
+
+Cello
+Disney Strings
+Filter Strings
+Majestic Strings
+String Quartet
+Swell Strings
+Synergy Strings
+Violin
+
+
+======================================================================
+
+
+
+
+
+
+
+

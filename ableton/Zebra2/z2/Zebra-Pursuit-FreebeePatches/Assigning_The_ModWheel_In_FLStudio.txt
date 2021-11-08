@@ -1,0 +1,12 @@
+Some quick directions on assigning your midi controller's modwheel for use in FL Studio with the Zebra 2/Hive vsti plug-in.
+
+
+Step 1 - Click on the *View Browser* icon (See Assigning_The_ModWheel_01.jpg)
+
+Step 2 - Click on *Generators* (See Assigning_The_ModWheel_02.jpg)
+
+Step 3 - Click on *Fruity Wrapper (Zebra 2/Hive)* (See Assigning_The_ModWheel_03.jpg)
+
+Step 4 - Scroll way down and click on *Midi CC #1 (Modulation wheel)* (See Assigning_The_ModWheel_04.jpg)
+
+Step 5 - Move your Modwheel, and it is now assigned to control the modwheel settings in your Rate Of Motion soundset.

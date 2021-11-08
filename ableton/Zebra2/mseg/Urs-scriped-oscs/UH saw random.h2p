@@ -1,0 +1,31 @@
+#defaults=no
+#cm=OSC
+Wave=2
+<?
+
+float Wave[ 128 ];
+
+float filter = 0.2f;
+
+for ( int table = 1; table <= 16; table++ )
+{
+   float saw = 1.0f;
+   float saw_inc = -2.0f/127.0f;
+   float out = 1.0f;
+
+   for ( int i = 0; i < 64; i++ )
+   {
+      out *= (1.f - filter);
+      out += saw * filter * rand(filter * -0.25f, filter * 2.f);
+      Wave[ i ] = out;
+      Wave[ 127 - i ] = -out;
+      saw += saw_inc;
+   }
+   
+   filter *= 1.12f;
+
+   Selected.WaveTable.set( table, Wave );
+   
+}
+
+?>

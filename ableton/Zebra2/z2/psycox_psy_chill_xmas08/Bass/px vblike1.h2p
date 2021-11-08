@@ -1,0 +1,1982 @@
+#AM=Zebra2
+#Vers=2000A
+#Endian=little
+
+/*
+
+	Modulator Reference Table
+
+*/
+
+#nm=29
+#ms=none
+#ms=ModWhl
+#ms=PitchW
+#ms=Breath
+#ms=Xpress
+#ms=LfoG1
+#ms=LfoG2
+#ms=Gate
+#ms=KeyFol
+#ms=Velocity
+#ms=ATouch
+#ms=ArpMod
+#ms=ArpMd2
+#ms=Env1
+#ms=Env2
+#ms=Env3
+#ms=Env4
+#ms=MSEG1
+#ms=MSEG2
+#ms=MSEG3
+#ms=MSEG4
+#ms=Lfo1
+#ms=Lfo2
+#ms=Lfo3
+#ms=Lfo4
+#ms=MMix1
+#ms=MMix2
+#ms=MMix3
+#ms=MMix4
+#nv=5
+#mv=Gate
+#mv=Env1
+#mv=Env2
+#mv=Env3
+#mv=Env4
+
+/*
+
+	Main Loop Circuit
+
+*/
+
+#cm=main
+CcOp=134.00			// Output
+#LFOG=1				// Active #LFOG
+#LFOG2=1				// Active #LFOG2
+
+/*
+
+	Core
+
+*/
+
+#cm=PCore
+X_1=0.00			// X1
+Y_1=0.00			// Y1
+X_2=0.00			// X2
+Y_2=0.00			// Y2
+X_3=0.00			// X3
+Y_3=0.00			// Y3
+X_4=0.00			// X4
+Y_4=0.00			// Y4
+MT11=VCF1:Cut	// XY1 TargetX1
+ML11=150.00			// XY1 Right1
+MR11=0.00			// XY1 Left1
+MT12=VCF1:FM1	// XY1 TargetX2
+ML12=7.50			// XY1 Right2
+MR12=-71.25			// XY1 Left2
+MT13=XMF1:Cut	// XY1 TargetX3
+ML13=123.75			// XY1 Right3
+MR13=-18.75			// XY1 Left3
+MT14=XMF1:FM1	// XY1 TargetX4
+ML14=50.00			// XY1 Right4
+MR14=-50.00			// XY1 Left4
+MT15=none:assigned	// XY1 TargetX5
+ML15=50.00			// XY1 Right5
+MR15=-50.00			// XY1 Left5
+MT16=none:assigned	// XY1 TargetX6
+ML16=50.00			// XY1 Right6
+MR16=-50.00			// XY1 Left6
+MT17=none:assigned	// XY1 TargetX7
+ML17=50.00			// XY1 Right7
+MR17=-50.00			// XY1 Left7
+MT18=none:assigned	// XY1 TargetX8
+ML18=50.00			// XY1 Right8
+MR18=-50.00			// XY1 Left8
+MT21=VCF1:Res	// XY1 TargetY1
+ML21=77.50			// XY1 Up1
+MR21=-1.25			// XY1 Down1
+MT22=XMF1:Res	// XY1 TargetY2
+ML22=71.25			// XY1 Up2
+MR22=1.25			// XY1 Down2
+MT23=none:assigned	// XY1 TargetY3
+ML23=50.00			// XY1 Up3
+MR23=-50.00			// XY1 Down3
+MT24=none:assigned	// XY1 TargetY4
+ML24=50.00			// XY1 Up4
+MR24=-50.00			// XY1 Down4
+MT25=none:assigned	// XY1 TargetY5
+ML25=50.00			// XY1 Up5
+MR25=-50.00			// XY1 Down5
+MT26=none:assigned	// XY1 TargetY6
+ML26=50.00			// XY1 Up6
+MR26=-50.00			// XY1 Down6
+MT27=none:assigned	// XY1 TargetY7
+ML27=50.00			// XY1 Up7
+MR27=-50.00			// XY1 Down7
+MT28=none:assigned	// XY1 TargetY8
+ML28=50.00			// XY1 Up8
+MR28=-50.00			// XY1 Down8
+MT31=OSC1:WNum	// XY2 TargetX1
+ML31=15.00			// XY2 Right1
+MR31=0.19			// XY2 Left1
+MT32=OSC1:WNum	// XY2 TargetX2
+ML32=0.19			// XY2 Right2
+MR32=3.56			// XY2 Left2
+MT33=none:assigned	// XY2 TargetX3
+ML33=-1.88			// XY2 Right3
+MR33=7.87			// XY2 Left3
+MT34=none:assigned	// XY2 TargetX4
+ML34=15.00			// XY2 Right4
+MR34=-15.00			// XY2 Left4
+MT35=none:assigned	// XY2 TargetX5
+ML35=50.00			// XY2 Right5
+MR35=-50.00			// XY2 Left5
+MT36=none:assigned	// XY2 TargetX6
+ML36=50.00			// XY2 Right6
+MR36=-50.00			// XY2 Left6
+MT37=none:assigned	// XY2 TargetX7
+ML37=50.00			// XY2 Right7
+MR37=-50.00			// XY2 Left7
+MT38=none:assigned	// XY2 TargetX8
+ML38=50.00			// XY2 Right8
+MR38=-50.00			// XY2 Left8
+MT41=OSC2:WNum	// XY2 TargetY1
+ML41=15.00			// XY2 Up1
+MR41=0.00			// XY2 Down1
+MT42=OSC2:WNum	// XY2 TargetY2
+ML42=-0.19			// XY2 Up2
+MR42=7.13			// XY2 Down2
+MT43=none:assigned	// XY2 TargetY3
+ML43=-1.88			// XY2 Up3
+MR43=0.00			// XY2 Down3
+MT44=none:assigned	// XY2 TargetY4
+ML44=15.00			// XY2 Up4
+MR44=-15.00			// XY2 Down4
+MT45=none:assigned	// XY2 TargetY5
+ML45=50.00			// XY2 Up5
+MR45=-50.00			// XY2 Down5
+MT46=none:assigned	// XY2 TargetY6
+ML46=50.00			// XY2 Up6
+MR46=-50.00			// XY2 Down6
+MT47=none:assigned	// XY2 TargetY7
+ML47=50.00			// XY2 Up7
+MR47=-50.00			// XY2 Down7
+MT48=none:assigned	// XY2 TargetY8
+ML48=50.00			// XY2 Up8
+MR48=-50.00			// XY2 Down8
+MT51=ENV2:Dec	// XY3 TargetX1
+ML51=16.25			// XY3 Right1
+MR51=-20.00			// XY3 Left1
+MT52=none:assigned	// XY3 TargetX2
+ML52=8.75			// XY3 Right2
+MR52=-50.00			// XY3 Left2
+MT53=none:assigned	// XY3 TargetX3
+ML53=50.00			// XY3 Right3
+MR53=-1.25			// XY3 Left3
+MT54=none:assigned	// XY3 TargetX4
+ML54=-2.50			// XY3 Right4
+MR54=-56.25			// XY3 Left4
+MT55=none:assigned	// XY3 TargetX5
+ML55=50.00			// XY3 Right5
+MR55=-50.00			// XY3 Left5
+MT56=none:assigned	// XY3 TargetX6
+ML56=50.00			// XY3 Right6
+MR56=-50.00			// XY3 Left6
+MT57=none:assigned	// XY3 TargetX7
+ML57=50.00			// XY3 Right7
+MR57=-50.00			// XY3 Left7
+MT58=none:assigned	// XY3 TargetX8
+ML58=50.00			// XY3 Right8
+MR58=-50.00			// XY3 Left8
+MT61=ENV2:Sus	// XY3 TargetY1
+ML61=100.00			// XY3 Up1
+MR61=-1.25			// XY3 Down1
+MT62=none:assigned	// XY3 TargetY2
+ML62=11.25			// XY3 Up2
+MR62=-50.00			// XY3 Down2
+MT63=none:assigned	// XY3 TargetY3
+ML63=41.25			// XY3 Up3
+MR63=-5.00			// XY3 Down3
+MT64=none:assigned	// XY3 TargetY4
+ML64=50.00			// XY3 Up4
+MR64=-50.00			// XY3 Down4
+MT65=none:assigned	// XY3 TargetY5
+ML65=50.00			// XY3 Up5
+MR65=-50.00			// XY3 Down5
+MT66=none:assigned	// XY3 TargetY6
+ML66=50.00			// XY3 Up6
+MR66=-50.00			// XY3 Down6
+MT67=none:assigned	// XY3 TargetY7
+ML67=50.00			// XY3 Up7
+MR67=-50.00			// XY3 Down7
+MT68=none:assigned	// XY3 TargetY8
+ML68=50.00			// XY3 Up8
+MR68=-50.00			// XY3 Down8
+MT71=EQ1:fc2	// XY4 TargetX1
+ML71=52.50			// XY4 Right1
+MR71=-47.50			// XY4 Left1
+MT72=none:assigned	// XY4 TargetX2
+ML72=50.00			// XY4 Right2
+MR72=-50.00			// XY4 Left2
+MT73=none:assigned	// XY4 TargetX3
+ML73=50.00			// XY4 Right3
+MR73=-50.00			// XY4 Left3
+MT74=none:assigned	// XY4 TargetX4
+ML74=50.00			// XY4 Right4
+MR74=-50.00			// XY4 Left4
+MT75=none:assigned	// XY4 TargetX5
+ML75=50.00			// XY4 Right5
+MR75=-50.00			// XY4 Left5
+MT76=none:assigned	// XY4 TargetX6
+ML76=50.00			// XY4 Right6
+MR76=-50.00			// XY4 Left6
+MT77=none:assigned	// XY4 TargetX7
+ML77=50.00			// XY4 Right7
+MR77=-50.00			// XY4 Left7
+MT78=none:assigned	// XY4 TargetX8
+ML78=50.00			// XY4 Right8
+MR78=-50.00			// XY4 Left8
+MT81=EQ1:gain2	// XY4 TargetY1
+ML81=24.00			// XY4 Up1
+MR81=-23.40			// XY4 Down1
+MT82=none:assigned	// XY4 TargetY2
+ML82=50.00			// XY4 Up2
+MR82=-8.75			// XY4 Down2
+MT83=none:assigned	// XY4 TargetY3
+ML83=50.00			// XY4 Up3
+MR83=-50.00			// XY4 Down3
+MT84=none:assigned	// XY4 TargetY4
+ML84=50.00			// XY4 Up4
+MR84=-50.00			// XY4 Down4
+MT85=none:assigned	// XY4 TargetY5
+ML85=50.00			// XY4 Up5
+MR85=-50.00			// XY4 Down5
+MT86=none:assigned	// XY4 TargetY6
+ML86=50.00			// XY4 Up6
+MR86=-50.00			// XY4 Down6
+MT87=none:assigned	// XY4 TargetY7
+ML87=50.00			// XY4 Up7
+MR87=-50.00			// XY4 Down7
+MT88=none:assigned	// XY4 TargetY8
+ML88=50.00			// XY4 Up8
+MR88=-50.00			// XY4 Down8
+MMT1=LFO1:Amp	// Matrix1 Target
+MMS1=1				// Matrix1 Source=ModWhl
+MMD1=74.00			// Matrix1 Depth
+MMVS1=0				// Matrix1 ViaSrc=none
+MMVD1=0.00			// Matrix1 Via
+MMT2=VCF1:FM1	// Matrix2 Target
+MMS2=10				// Matrix2 Source=ATouch
+MMD2=-20.00			// Matrix2 Depth
+MMVS2=0				// Matrix2 ViaSrc=none
+MMVD2=0.00			// Matrix2 Via
+MMT3=XMF1:FM1	// Matrix3 Target
+MMS3=10				// Matrix3 Source=ATouch
+MMD3=-30.00			// Matrix3 Depth
+MMVS3=0				// Matrix3 ViaSrc=none
+MMVD3=0.00			// Matrix3 Via
+MMT4=none:assigned	// Matrix4 Target
+MMS4=0				// Matrix4 Source=none
+MMD4=0.00			// Matrix4 Depth
+MMVS4=0				// Matrix4 ViaSrc=none
+MMVD4=0.00			// Matrix4 Via
+SBase=4				// SwingBase=1/4
+Swing=0.00			// Swing
+STrig=1				// SwingTrigger
+PSong=100				// PatchSong
+
+/*
+
+	LfoG1
+
+*/
+
+#cm=LFOG
+Sync=4				// Sync=1/4
+Trig=0				// Restart=off
+Wave=0				// Waveform=sine
+Phse=0.00			// Phase
+Rate=100.00			// Rate
+Amp=100.00			// Amplitude
+Nstp=16				// Num Steps
+Stps=0				// binary data for Steps
+UWv=0				// User Wave Mode=steps
+
+/*
+
+	LfoG2
+
+*/
+
+#cm=LFOG2
+Sync=4				// Sync=1/4
+Trig=0				// Restart=off
+Wave=0				// Waveform=sine
+Phse=0.00			// Phase
+Rate=100.00			// Rate
+Amp=100.00			// Amplitude
+Nstp=16				// Num Steps
+Stps=1				// binary data for Steps
+UWv=0				// User Wave Mode=steps
+
+/*
+
+	VoiceCircuit
+
+*/
+
+#cm=VCC
+#LFO1=1				// Active #LFO1
+#LFO2=1				// Active #LFO2
+#LFO3=1				// Active #LFO3
+#LFO4=1				// Active #LFO4
+Voices=1				// Voices=medium
+Voicing=0				// Voicing
+Mode=1				// Mode=retrigger
+Porta=0.00			// Portamento
+PB=2				// PitchBendUp
+PBD=2				// PitchBendDown
+ArSc=4				// ArpSync=1/4
+ArOrd=0				// ArpOrder=by note
+ArLp=0				// ArpLoop=F -->
+ArOct=1				// ArpOctave
+ArLL=16				// ArpLoopLength
+ArTr=0				// ArpPortamento
+Drft=1				// Drift
+MTunS=0				// TuningMode
+MTunN=2				// binary data for Tuning
+MTunT=3				// binary data for TuningTable
+Trsp=-24				// Transpose
+FTun=0.00			// FineTuneCents
+PortRg=100.00			// PortaRange
+Agte1=2				// Arp Gate1
+Atrp1=0				// Arp Transpose1=< 12
+Avoc1=1				// Arp Voices1
+Amul1=1				// Arp Duration1
+Amod1=0				// Arp Step Control1=next
+AMDpt1=0.00			// Arp Step ModA1
+AMDpB1=0.00			// Arp Step ModB1
+Agte2=2				// Arp Gate2
+Atrp2=0				// Arp Transpose2=< 12
+Avoc2=1				// Arp Voices2
+Amul2=1				// Arp Duration2
+Amod2=0				// Arp Step Control2=next
+AMDpt2=0.00			// Arp Step ModA2
+AMDpB2=0.00			// Arp Step ModB2
+Agte3=2				// Arp Gate3
+Atrp3=0				// Arp Transpose3=< 12
+Avoc3=1				// Arp Voices3
+Amul3=1				// Arp Duration3
+Amod3=0				// Arp Step Control3=next
+AMDpt3=0.00			// Arp Step ModA3
+AMDpB3=0.00			// Arp Step ModB3
+Agte4=2				// Arp Gate4
+Atrp4=0				// Arp Transpose4=< 12
+Avoc4=1				// Arp Voices4
+Amul4=1				// Arp Duration4
+Amod4=0				// Arp Step Control4=next
+AMDpt4=0.00			// Arp Step ModA4
+AMDpB4=0.00			// Arp Step ModB4
+Agte5=2				// Arp Gate5
+Atrp5=0				// Arp Transpose5=< 12
+Avoc5=1				// Arp Voices5
+Amul5=1				// Arp Duration5
+Amod5=0				// Arp Step Control5=next
+AMDpt5=0.00			// Arp Step ModA5
+AMDpB5=0.00			// Arp Step ModB5
+Agte6=2				// Arp Gate6
+Atrp6=0				// Arp Transpose6=< 12
+Avoc6=1				// Arp Voices6
+Amul6=1				// Arp Duration6
+Amod6=0				// Arp Step Control6=next
+AMDpt6=0.00			// Arp Step ModA6
+AMDpB6=0.00			// Arp Step ModB6
+Agte7=2				// Arp Gate7
+Atrp7=0				// Arp Transpose7=< 12
+Avoc7=1				// Arp Voices7
+Amul7=1				// Arp Duration7
+Amod7=0				// Arp Step Control7=next
+AMDpt7=0.00			// Arp Step ModA7
+AMDpB7=0.00			// Arp Step ModB7
+Agte8=2				// Arp Gate8
+Atrp8=0				// Arp Transpose8=< 12
+Avoc8=1				// Arp Voices8
+Amul8=1				// Arp Duration8
+Amod8=0				// Arp Step Control8=next
+AMDpt8=0.00			// Arp Step ModA8
+AMDpB8=0.00			// Arp Step ModB8
+Agte9=2				// Arp Gate9
+Atrp9=0				// Arp Transpose9=< 12
+Avoc9=1				// Arp Voices9
+Amul9=1				// Arp Duration9
+Amod9=0				// Arp Step Control9=next
+AMDpt9=0.00			// Arp Step ModA9
+AMDpB9=0.00			// Arp Step ModB9
+Agte10=2				// Arp Gate10
+Atrp10=0				// Arp Transpose10=< 12
+Avoc10=1				// Arp Voices10
+Amul10=1				// Arp Duration10
+Amod10=0				// Arp Step Control10=next
+AMDpt10=0.00			// Arp Step ModA10
+AMDpB10=0.00			// Arp Step ModB10
+Agte11=2				// Arp Gate11
+Atrp11=0				// Arp Transpose11=< 12
+Avoc11=1				// Arp Voices11
+Amul11=1				// Arp Duration11
+Amod11=0				// Arp Step Control11=next
+AMDpt11=0.00			// Arp Step ModA11
+AMDpB11=0.00			// Arp Step ModB11
+Agte12=2				// Arp Gate12
+Atrp12=0				// Arp Transpose12=< 12
+Avoc12=1				// Arp Voices12
+Amul12=1				// Arp Duration12
+Amod12=0				// Arp Step Control12=next
+AMDpt12=0.00			// Arp Step ModA12
+AMDpB12=0.00			// Arp Step ModB12
+Agte13=2				// Arp Gate13
+Atrp13=0				// Arp Transpose13=< 12
+Avoc13=1				// Arp Voices13
+Amul13=1				// Arp Duration13
+Amod13=0				// Arp Step Control13=next
+AMDpt13=0.00			// Arp Step ModA13
+AMDpB13=0.00			// Arp Step ModB13
+Agte14=2				// Arp Gate14
+Atrp14=0				// Arp Transpose14=< 12
+Avoc14=1				// Arp Voices14
+Amul14=1				// Arp Duration14
+Amod14=0				// Arp Step Control14=next
+AMDpt14=0.00			// Arp Step ModA14
+AMDpB14=0.00			// Arp Step ModB14
+Agte15=2				// Arp Gate15
+Atrp15=0				// Arp Transpose15=< 12
+Avoc15=1				// Arp Voices15
+Amul15=1				// Arp Duration15
+Amod15=0				// Arp Step Control15=next
+AMDpt15=0.00			// Arp Step ModA15
+AMDpB15=0.00			// Arp Step ModB15
+Agte16=2				// Arp Gate16
+Atrp16=0				// Arp Transpose16=< 12
+Avoc16=1				// Arp Voices16
+Amul16=1				// Arp Duration16
+Amod16=0				// Arp Step Control16=next
+AMDpt16=0.00			// Arp Step ModA16
+AMDpB16=0.00			// Arp Step ModB16
+
+/*
+
+	Env1
+
+*/
+
+#cm=ENV1
+Mode=2				// Mode=v-slope
+iMode=0				// InitMode=none
+sMode=0				// SustainMode=none
+init=0.00			// Init
+Atk=0.00			// Attack
+Dec=58.50			// Decay
+Sus=39.50			// Sustain
+SusT=0.00			// Fall/Rise
+Sus2=0.00			// Sustain2
+Rel=23.50			// Release
+Vel=30.00			// Velocity
+V2I=0.00			// Vel2I
+V2A=0.00			// Vel2A
+V2D=0.00			// Vel2D
+V2S=0.00			// Vel2S
+V2FR=0.00			// Vel2FR
+V2S2=0.00			// Vel2S2
+V2R=0.00			// Vel2R
+K2I=0.00			// Key2I
+K2A=0.00			// Key2A
+K2D=0.00			// Key2D
+K2S=0.00			// Key2S
+K2FR=0.00			// Key2FR
+K2S2=0.00			// Key2S2
+K2R=0.00			// Key2R
+Slope=-95.00			// Slope
+TBase=0				// Timebase=8sX
+
+/*
+
+	Env2
+
+*/
+
+#cm=ENV2
+Mode=2				// Mode=v-slope
+iMode=0				// InitMode=none
+sMode=0				// SustainMode=none
+init=0.00			// Init
+Atk=0.00			// Attack
+Dec=25.50			// Decay
+Sus=54.50			// Sustain
+SusT=0.00			// Fall/Rise
+Sus2=0.00			// Sustain2
+Rel=65.00			// Release
+Vel=30.00			// Velocity
+V2I=0.00			// Vel2I
+V2A=0.00			// Vel2A
+V2D=0.00			// Vel2D
+V2S=0.00			// Vel2S
+V2FR=0.00			// Vel2FR
+V2S2=0.00			// Vel2S2
+V2R=0.00			// Vel2R
+K2I=0.00			// Key2I
+K2A=0.00			// Key2A
+K2D=0.00			// Key2D
+K2S=0.00			// Key2S
+K2FR=0.00			// Key2FR
+K2S2=0.00			// Key2S2
+K2R=0.00			// Key2R
+Slope=-72.50			// Slope
+TBase=0				// Timebase=8sX
+
+/*
+
+	Env3
+
+*/
+
+#cm=ENV3
+Mode=0				// Mode=quadric
+iMode=0				// InitMode=none
+sMode=0				// SustainMode=none
+init=0.00			// Init
+Atk=0.00			// Attack
+Dec=12.50			// Decay
+Sus=0.00			// Sustain
+SusT=0.00			// Fall/Rise
+Sus2=0.00			// Sustain2
+Rel=100.00			// Release
+Vel=30.00			// Velocity
+V2I=0.00			// Vel2I
+V2A=0.00			// Vel2A
+V2D=0.00			// Vel2D
+V2S=0.00			// Vel2S
+V2FR=0.00			// Vel2FR
+V2S2=0.00			// Vel2S2
+V2R=0.00			// Vel2R
+K2I=0.00			// Key2I
+K2A=0.00			// Key2A
+K2D=0.00			// Key2D
+K2S=0.00			// Key2S
+K2FR=0.00			// Key2FR
+K2S2=0.00			// Key2S2
+K2R=0.00			// Key2R
+Slope=0.00			// Slope
+TBase=0				// Timebase=8sX
+
+/*
+
+	Env4
+
+*/
+
+#cm=ENV4
+Mode=0				// Mode=quadric
+iMode=0				// InitMode=none
+sMode=0				// SustainMode=none
+init=0.00			// Init
+Atk=0.00			// Attack
+Dec=50.00			// Decay
+Sus=80.00			// Sustain
+SusT=0.00			// Fall/Rise
+Sus2=0.00			// Sustain2
+Rel=15.00			// Release
+Vel=30.00			// Velocity
+V2I=0.00			// Vel2I
+V2A=0.00			// Vel2A
+V2D=0.00			// Vel2D
+V2S=0.00			// Vel2S
+V2FR=0.00			// Vel2FR
+V2S2=0.00			// Vel2S2
+V2R=0.00			// Vel2R
+K2I=0.00			// Key2I
+K2A=0.00			// Key2A
+K2D=0.00			// Key2D
+K2S=0.00			// Key2S
+K2FR=0.00			// Key2FR
+K2S2=0.00			// Key2S2
+K2R=0.00			// Key2R
+Slope=0.00			// Slope
+TBase=0				// Timebase=8sX
+
+/*
+
+	MSEG1
+
+*/
+
+#cm=MSEG1
+TmUn=1				// TimeUnit=Quarters
+Env=4				// binary data for Envelope
+Vel=0.00			// Velocity
+Atk=0.00			// Attack
+Lpt=0.00			// Loop
+Rel=0.00			// Release
+Trig=0				// Trigger=poly
+
+/*
+
+	MSEG2
+
+*/
+
+#cm=MSEG2
+TmUn=1				// TimeUnit=Quarters
+Env=5				// binary data for Envelope
+Vel=0.00			// Velocity
+Atk=0.00			// Attack
+Lpt=0.00			// Loop
+Rel=0.00			// Release
+Trig=0				// Trigger=poly
+
+/*
+
+	MSEG3
+
+*/
+
+#cm=MSEG3
+TmUn=1				// TimeUnit=Quarters
+Env=6				// binary data for Envelope
+Vel=0.00			// Velocity
+Atk=0.00			// Attack
+Lpt=0.00			// Loop
+Rel=0.00			// Release
+Trig=0				// Trigger=poly
+
+/*
+
+	MSEG4
+
+*/
+
+#cm=MSEG4
+TmUn=1				// TimeUnit=Quarters
+Env=7				// binary data for Envelope
+Vel=0.00			// Velocity
+Atk=0.00			// Attack
+Lpt=0.00			// Loop
+Rel=0.00			// Release
+Trig=0				// Trigger=poly
+
+/*
+
+	Lfo1
+
+*/
+
+#cm=LFO1
+Sync=4				// Sync=1/4
+Trig=0				// Restart=free
+Wave=0				// Waveform=sine
+Phse=0.00			// Phase
+Rate=100.00			// Rate
+Amp=20.50			// Amplitude
+Nstp=16				// Num Steps
+Stps=8				// binary data for Steps
+UWv=0				// User Wave Mode=steps
+Dly=0.00			// Delay
+DMS1=0				// DepthMod Src1=none
+DMD1=0.00			// DepthMod Dpt1
+FMS1=0				// FreqMod Src1=none
+FMD1=0.00			// FreqMod Dpt
+
+/*
+
+	Lfo2
+
+*/
+
+#cm=LFO2
+Sync=4				// Sync=1/4
+Trig=0				// Restart=free
+Wave=0				// Waveform=sine
+Phse=0.00			// Phase
+Rate=100.00			// Rate
+Amp=100.00			// Amplitude
+Nstp=16				// Num Steps
+Stps=9				// binary data for Steps
+UWv=0				// User Wave Mode=steps
+Dly=0.00			// Delay
+DMS1=0				// DepthMod Src1=none
+DMD1=0.00			// DepthMod Dpt1
+FMS1=0				// FreqMod Src1=none
+FMD1=0.00			// FreqMod Dpt
+
+/*
+
+	Lfo3
+
+*/
+
+#cm=LFO3
+Sync=4				// Sync=1/4
+Trig=0				// Restart=free
+Wave=0				// Waveform=sine
+Phse=0.00			// Phase
+Rate=100.00			// Rate
+Amp=100.00			// Amplitude
+Nstp=16				// Num Steps
+Stps=10				// binary data for Steps
+UWv=0				// User Wave Mode=steps
+Dly=0.00			// Delay
+DMS1=0				// DepthMod Src1=none
+DMD1=0.00			// DepthMod Dpt1
+FMS1=0				// FreqMod Src1=none
+FMD1=0.00			// FreqMod Dpt
+
+/*
+
+	Lfo4
+
+*/
+
+#cm=LFO4
+Sync=4				// Sync=1/4
+Trig=0				// Restart=free
+Wave=0				// Waveform=sine
+Phse=0.00			// Phase
+Rate=100.00			// Rate
+Amp=100.00			// Amplitude
+Nstp=16				// Num Steps
+Stps=11				// binary data for Steps
+UWv=0				// User Wave Mode=steps
+Dly=0.00			// Delay
+DMS1=0				// DepthMod Src1=none
+DMD1=0.00			// DepthMod Dpt1
+FMS1=0				// FreqMod Src1=none
+FMD1=0.00			// FreqMod Dpt
+
+/*
+
+	MMix1
+
+*/
+
+#cm=MMix1
+Type=0				// Mode=sum modulations
+Mod1=0				// Mod1=none
+Mod2=0				// Mod2=none
+Mod3=0				// Mod3=none
+Cst=50.00			// Constant
+
+/*
+
+	MMix2
+
+*/
+
+#cm=MMix2
+Type=0				// Mode=sum modulations
+Mod1=0				// Mod1=none
+Mod2=0				// Mod2=none
+Mod3=0				// Mod3=none
+Cst=50.00			// Constant
+
+/*
+
+	MMix3
+
+*/
+
+#cm=MMix3
+Type=0				// Mode=sum modulations
+Mod1=0				// Mod1=none
+Mod2=0				// Mod2=none
+Mod3=0				// Mod3=none
+Cst=50.00			// Constant
+
+/*
+
+	MMix4
+
+*/
+
+#cm=MMix4
+Type=0				// Mode=sum modulations
+Mod1=0				// Mod1=none
+Mod2=0				// Mod2=none
+Mod3=0				// Mod3=none
+Cst=50.00			// Constant
+
+/*
+
+	Grid
+
+*/
+
+#cm=Grid
+Grid=12				// binary data for Grid Structure
+
+/*
+
+	Oscillator1
+
+*/
+
+#cm=OSC1
+Wave=0				// WaveForm=GeoMorph
+Tune=0.00			// Tune
+KeyScl=100.00			// key scale
+TMSrc=15				// TuneModSrc=Env3
+TMDpt=1.00			// TuneModDepth
+Phse=0.00			// Phase
+PhsMSrc=0				// PhaseModSrc=none
+PhsMDpt=0.00			// PhaseModDepth
+WNum=1.00			// WaveWarp
+WPSrc=0				// WarpModSrc=none
+WPDpt=0.00			// WarpModDepth
+VtoD=0.00			// Vibrato
+Curve=13				// binary data for Curve
+Prec=5.00			// Resolution
+FX1Tp=3				// SpectraFX1 Type=Brilliance
+SFX1=100.00			// SpectraFX1 Val
+FX1Sc=0				// SFX1ModSrc=none
+FX1Dt=0.00			// SFX1ModDepth
+FX2Tp=0				// SpectraFX2 Type=none
+SFX2=0.00			// SpectraFX2 Val
+FX2Sc=0				// SFX2ModSrc=none
+FX2Dt=0.00			// SFX2ModDepth
+Poly=1				// PolyWave=dual
+Dtun=0.00			// Detune
+KVsc=14				// binary data for KeyVelZones
+Vol=100.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Sync=0.00			// SyncTune
+SncSc=0				// SyncModSrc=none
+SncDt=0.00			// SyncModDepth
+SncOn=0				// Sync Active
+PolW=50.00			// Poly Width
+PwmOn=0				// PWM Mode
+WaTb=15				// binary data for WaveTable
+RePhs=1				// Reset Phase
+Norm=0.00			// Normalize
+
+/*
+
+	Oscillator2
+
+*/
+
+#cm=OSC2
+Wave=0				// WaveForm=GeoMorph
+Tune=0.00			// Tune
+KeyScl=100.00			// key scale
+TMSrc=15				// TuneModSrc=Env3
+TMDpt=16.50			// TuneModDepth
+Phse=0.00			// Phase
+PhsMSrc=21				// PhaseModSrc=Lfo1
+PhsMDpt=0.00			// PhaseModDepth
+WNum=1.00			// WaveWarp
+WPSrc=0				// WarpModSrc=none
+WPDpt=0.00			// WarpModDepth
+VtoD=100.00			// Vibrato
+Curve=16				// binary data for Curve
+Prec=5.00			// Resolution
+FX1Tp=0				// SpectraFX1 Type=none
+SFX1=0.00			// SpectraFX1 Val
+FX1Sc=13				// SFX1ModSrc=Env1
+FX1Dt=0.00			// SFX1ModDepth
+FX2Tp=0				// SpectraFX2 Type=none
+SFX2=0.00			// SpectraFX2 Val
+FX2Sc=0				// SFX2ModSrc=none
+FX2Dt=0.00			// SFX2ModDepth
+Poly=1				// PolyWave=dual
+Dtun=8.00			// Detune
+KVsc=17				// binary data for KeyVelZones
+Vol=100.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Sync=0.00			// SyncTune
+SncSc=13				// SyncModSrc=Env1
+SncDt=0.00			// SyncModDepth
+SncOn=0				// Sync Active
+PolW=50.00			// Poly Width
+PwmOn=0				// PWM Mode
+WaTb=18				// binary data for WaveTable
+RePhs=0				// Reset Phase
+Norm=0.00			// Normalize
+
+/*
+
+	Oscillator3
+
+*/
+
+#cm=OSC3
+Wave=0				// WaveForm=GeoMorph
+Tune=0.00			// Tune
+KeyScl=100.00			// key scale
+TMSrc=15				// TuneModSrc=Env3
+TMDpt=0.00			// TuneModDepth
+Phse=0.00			// Phase
+PhsMSrc=21				// PhaseModSrc=Lfo1
+PhsMDpt=0.00			// PhaseModDepth
+WNum=3.00			// WaveWarp
+WPSrc=0				// WarpModSrc=none
+WPDpt=0.00			// WarpModDepth
+VtoD=100.00			// Vibrato
+Curve=19				// binary data for Curve
+Prec=5.00			// Resolution
+FX1Tp=0				// SpectraFX1 Type=none
+SFX1=0.00			// SpectraFX1 Val
+FX1Sc=13				// SFX1ModSrc=Env1
+FX1Dt=0.00			// SFX1ModDepth
+FX2Tp=0				// SpectraFX2 Type=none
+SFX2=0.00			// SpectraFX2 Val
+FX2Sc=0				// SFX2ModSrc=none
+FX2Dt=0.00			// SFX2ModDepth
+Poly=0				// PolyWave=single
+Dtun=0.00			// Detune
+KVsc=20				// binary data for KeyVelZones
+Vol=68.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Sync=0.00			// SyncTune
+SncSc=13				// SyncModSrc=Env1
+SncDt=0.00			// SyncModDepth
+SncOn=0				// Sync Active
+PolW=50.00			// Poly Width
+PwmOn=0				// PWM Mode
+WaTb=21				// binary data for WaveTable
+RePhs=0				// Reset Phase
+Norm=0.00			// Normalize
+
+/*
+
+	Oscillator4
+
+*/
+
+#cm=OSC4
+Wave=0				// WaveForm=GeoMorph
+Tune=0.00			// Tune
+KeyScl=100.00			// key scale
+TMSrc=0				// TuneModSrc=none
+TMDpt=0.00			// TuneModDepth
+Phse=0.00			// Phase
+PhsMSrc=0				// PhaseModSrc=none
+PhsMDpt=0.00			// PhaseModDepth
+WNum=1.00			// WaveWarp
+WPSrc=0				// WarpModSrc=none
+WPDpt=0.00			// WarpModDepth
+VtoD=0.00			// Vibrato
+Curve=22				// binary data for Curve
+Prec=5.00			// Resolution
+FX1Tp=0				// SpectraFX1 Type=none
+SFX1=0.00			// SpectraFX1 Val
+FX1Sc=0				// SFX1ModSrc=none
+FX1Dt=0.00			// SFX1ModDepth
+FX2Tp=0				// SpectraFX2 Type=none
+SFX2=0.00			// SpectraFX2 Val
+FX2Sc=0				// SFX2ModSrc=none
+FX2Dt=0.00			// SFX2ModDepth
+Poly=0				// PolyWave=single
+Dtun=0.00			// Detune
+KVsc=23				// binary data for KeyVelZones
+Vol=100.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Sync=0.00			// SyncTune
+SncSc=0				// SyncModSrc=none
+SncDt=0.00			// SyncModDepth
+SncOn=0				// Sync Active
+PolW=50.00			// Poly Width
+PwmOn=0				// PWM Mode
+WaTb=24				// binary data for WaveTable
+RePhs=0				// Reset Phase
+Norm=0.00			// Normalize
+
+/*
+
+	Noise1
+
+*/
+
+#cm=Noise1
+Type=0				// Type=White
+F1=100.00			// Filter1
+F1Src=0				// F1 ModSrc=none
+F1Dpt=0.00			// F1 ModDepth
+F2=0.00			// Filter2
+F2Src=0				// F2 ModSrc=none
+F2Dpt=0.00			// F2 ModDepth
+KVsc=25				// binary data for KeyVelZones
+Vol=100.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Poly=0				// Poly
+PolW=50.00			// Width
+
+/*
+
+	Noise2
+
+*/
+
+#cm=Noise2
+Type=0				// Type=White
+F1=100.00			// Filter1
+F1Src=0				// F1 ModSrc=none
+F1Dpt=0.00			// F1 ModDepth
+F2=0.00			// Filter2
+F2Src=0				// F2 ModSrc=none
+F2Dpt=0.00			// F2 ModDepth
+KVsc=26				// binary data for KeyVelZones
+Vol=100.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Poly=0				// Poly
+PolW=50.00			// Width
+
+/*
+
+	Filter1
+
+*/
+
+#cm=VCF1
+Typ=1				// Type=LP Allround
+Cut=0.00			// Cutoff
+Res=0.00			// Resonance
+Drv=0.00			// Drive
+Gain=0.00			// Gain
+FM1=120.00			// ModDepth1
+FS1=14				// Modsource1=Env2
+FM2=0.00			// ModDepth2
+FS2=0				// Modsource2=none
+KeyScl=0.00			// KeyFollow
+
+/*
+
+	Filter2
+
+*/
+
+#cm=VCF2
+Typ=0				// Type=LP Xcite
+Cut=150.00			// Cutoff
+Res=0.00			// Resonance
+Drv=0.00			// Drive
+Gain=0.00			// Gain
+FM1=0.00			// ModDepth1
+FS1=0				// Modsource1=none
+FM2=0.00			// ModDepth2
+FS2=0				// Modsource2=none
+KeyScl=0.00			// KeyFollow
+
+/*
+
+	Filter3
+
+*/
+
+#cm=VCF3
+Typ=0				// Type=LP Xcite
+Cut=150.00			// Cutoff
+Res=0.00			// Resonance
+Drv=0.00			// Drive
+Gain=0.00			// Gain
+FM1=0.00			// ModDepth1
+FS1=0				// Modsource1=none
+FM2=0.00			// ModDepth2
+FS2=0				// Modsource2=none
+KeyScl=0.00			// KeyFollow
+
+/*
+
+	Filter4
+
+*/
+
+#cm=VCF4
+Typ=0				// Type=LP Xcite
+Cut=150.00			// Cutoff
+Res=0.00			// Resonance
+Drv=0.00			// Drive
+Gain=0.00			// Gain
+FM1=0.00			// ModDepth1
+FS1=0				// Modsource1=none
+FM2=0.00			// ModDepth2
+FS2=0				// Modsource2=none
+KeyScl=0.00			// KeyFollow
+
+/*
+
+	FM Osc1
+
+*/
+
+#cm=FMO1
+Wave=0				// Mode=FM by Input
+Tune=0.00			// Tune
+KeyScl=100.00			// key scale
+TMSrc=0				// TuneModSrc=none
+TMDpt=0.00			// TuneModDepth
+FM=0.00			// FM Depth
+FMSrc=0				// FM ModSrc=none
+FMDpt=0.00			// FM ModDepth
+VtoD=0.00			// Vibrato
+Dtun=0.00			// Detune
+KVsc=27				// binary data for KeyVelZones
+Vol=100.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Poly=0				// Poly
+PolW=50.00			// Width
+Getr=0				// Generator=pure sine
+
+/*
+
+	FM Osc2
+
+*/
+
+#cm=FMO2
+Wave=0				// Mode=FM by Input
+Tune=0.00			// Tune
+KeyScl=100.00			// key scale
+TMSrc=0				// TuneModSrc=none
+TMDpt=0.00			// TuneModDepth
+FM=0.00			// FM Depth
+FMSrc=0				// FM ModSrc=none
+FMDpt=0.00			// FM ModDepth
+VtoD=0.00			// Vibrato
+Dtun=0.00			// Detune
+KVsc=28				// binary data for KeyVelZones
+Vol=100.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Poly=0				// Poly
+PolW=50.00			// Width
+Getr=0				// Generator=pure sine
+
+/*
+
+	FM Osc3
+
+*/
+
+#cm=FMO3
+Wave=0				// Mode=FM by Input
+Tune=0.00			// Tune
+KeyScl=100.00			// key scale
+TMSrc=0				// TuneModSrc=none
+TMDpt=0.00			// TuneModDepth
+FM=0.00			// FM Depth
+FMSrc=0				// FM ModSrc=none
+FMDpt=0.00			// FM ModDepth
+VtoD=0.00			// Vibrato
+Dtun=0.00			// Detune
+KVsc=29				// binary data for KeyVelZones
+Vol=100.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Poly=0				// Poly
+PolW=50.00			// Width
+Getr=0				// Generator=pure sine
+
+/*
+
+	FM Osc4
+
+*/
+
+#cm=FMO4
+Wave=0				// Mode=FM by Input
+Tune=0.00			// Tune
+KeyScl=100.00			// key scale
+TMSrc=0				// TuneModSrc=none
+TMDpt=0.00			// TuneModDepth
+FM=0.00			// FM Depth
+FMSrc=0				// FM ModSrc=none
+FMDpt=0.00			// FM ModDepth
+VtoD=0.00			// Vibrato
+Dtun=0.00			// Detune
+KVsc=30				// binary data for KeyVelZones
+Vol=100.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Poly=0				// Poly
+PolW=50.00			// Width
+Getr=0				// Generator=pure sine
+
+/*
+
+	Comb1
+
+*/
+
+#cm=Comb1
+Mode=0				// Mode=Comb
+Tune=0.00			// Tune
+KeyScl=100.00			// key scale
+TMSrc=0				// TuneModSrc=none
+TMDpt=0.00			// TuneModDepth
+Detn=0.00			// Detune
+VtoD=0.00			// Vibrato
+FB=0.00			// Feedback
+FBSrc=0				// FBModSrc=none
+FBDpt=0.00			// FBModDepth
+Damp=0.00			// Damp
+DmpSrc=0				// DampModSrc=none
+DmpDpt=0.00			// DampModDepth
+Exc=0.00			// PreFill
+Inj=0.00			// Input
+InjSrc=0				// InModSrc=none
+InjDpt=0.00			// InputMod
+Tne=50.00			// Tone
+TneSrc=0				// ToneModSrc=none
+TneDpt=0.00			// ToneMod
+Sec=0.00			// Flavour
+SecSrc=0				// SecModSrc=none
+SecDpt=0.00			// FlavourMod
+Dist=0.00			// Distortion
+Dry=0.00			// Dry
+Vol=100.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Poly=0				// Poly
+PolW=50.00			// Width
+Fill=0				// Fill=FillNoise
+
+/*
+
+	Comb2
+
+*/
+
+#cm=Comb2
+Mode=0				// Mode=Comb
+Tune=0.00			// Tune
+KeyScl=100.00			// key scale
+TMSrc=0				// TuneModSrc=none
+TMDpt=0.00			// TuneModDepth
+Detn=0.00			// Detune
+VtoD=0.00			// Vibrato
+FB=0.00			// Feedback
+FBSrc=0				// FBModSrc=none
+FBDpt=0.00			// FBModDepth
+Damp=0.00			// Damp
+DmpSrc=0				// DampModSrc=none
+DmpDpt=0.00			// DampModDepth
+Exc=0.00			// PreFill
+Inj=0.00			// Input
+InjSrc=0				// InModSrc=none
+InjDpt=0.00			// InputMod
+Tne=50.00			// Tone
+TneSrc=0				// ToneModSrc=none
+TneDpt=0.00			// ToneMod
+Sec=0.00			// Flavour
+SecSrc=0				// SecModSrc=none
+SecDpt=0.00			// FlavourMod
+Dist=0.00			// Distortion
+Dry=0.00			// Dry
+Vol=100.00			// Volume
+VolSc=0				// VolumeModSrc=none
+VolDt=0.00			// VolumeModDepth
+Pan=0.00			// Pan
+PanSc=0				// PanModSrc=none
+PanDt=0.00			// PanModDepth
+Poly=0				// Poly
+PolW=50.00			// Width
+Fill=0				// Fill=FillNoise
+
+/*
+
+	Shape1
+
+*/
+
+#cm=Shape1
+Type=0				// Type=Shape
+Depth=0.00			// Depth
+DMSrc=0				// D_ModSrc=none
+DMDpt=0.00			// D_ModDepth
+Edge=75.00			// Edge
+EMSrc=0				// Edge ModSrc=none
+EMDpt=0.00			// Edge ModDepth
+Input=0.00			// Input
+Output=0.00			// Output
+HiOut=0.00			// HiOut
+
+/*
+
+	Shape2
+
+*/
+
+#cm=Shape2
+Type=0				// Type=Shape
+Depth=0.00			// Depth
+DMSrc=0				// D_ModSrc=none
+DMDpt=0.00			// D_ModDepth
+Edge=75.00			// Edge
+EMSrc=0				// Edge ModSrc=none
+EMDpt=0.00			// Edge ModDepth
+Input=0.00			// Input
+Output=0.00			// Output
+HiOut=0.00			// HiOut
+
+/*
+
+	ChannelMix1
+
+*/
+
+#cm=Mix1
+Pan=0.00			// Pan
+Mix=50.00			// Mix
+PnMd=0				// Pan Mode=Bal L-R
+PnMD=0.00			// PanMod Depth
+PnMS=0				// PanMod Source=none
+
+/*
+
+	ChannelMix2
+
+*/
+
+#cm=Mix2
+Pan=0.00			// Pan
+Mix=50.00			// Mix
+PnMd=0				// Pan Mode=Bal L-R
+PnMD=0.00			// PanMod Depth
+PnMS=0				// PanMod Source=none
+
+/*
+
+	ChannelMix3
+
+*/
+
+#cm=Mix3
+Pan=0.00			// Pan
+Mix=50.00			// Mix
+PnMd=0				// Pan Mode=Bal L-R
+PnMD=0.00			// PanMod Depth
+PnMS=0				// PanMod Source=none
+
+/*
+
+	ChannelMix4
+
+*/
+
+#cm=Mix4
+Pan=0.00			// Pan
+Mix=50.00			// Mix
+PnMd=0				// Pan Mode=Bal L-R
+PnMD=0.00			// PanMod Depth
+PnMS=0				// PanMod Source=none
+
+/*
+
+	XMF1
+
+*/
+
+#cm=XMF1
+Typ=0				// Type=LP4
+Cut=0.00			// Cutoff
+Res=0.00			// Resonance
+FM1=112.00			// Freq mod 1
+FS1=13				// Modsource1=Env1
+FM2=0.00			// Freq mod 2
+FS2=0				// Modsource2=none
+KeyScl=0.00			// KeyFollow
+FOff=0.00			// FreqOffset
+FOMod=0.00			// FreqOffMod
+FOSrc=0				// FreqOffSrc=none
+XFM=0.00			// FilterFM
+XFMD=0.00			// XFMmod
+XFMS=0				// XFMrc=none
+Bias=0.00			// Bias
+OLoad=0.00			// Overload
+Click=0.00			// Click
+Drv=0				// Driver=hard
+Rout=0				// Routing=stereo
+
+/*
+
+	XMF2
+
+*/
+
+#cm=XMF2
+Typ=0				// Type=LP4
+Cut=150.00			// Cutoff
+Res=0.00			// Resonance
+FM1=0.00			// Freq mod 1
+FS1=0				// Modsource1=none
+FM2=0.00			// Freq mod 2
+FS2=0				// Modsource2=none
+KeyScl=0.00			// KeyFollow
+FOff=0.00			// FreqOffset
+FOMod=0.00			// FreqOffMod
+FOSrc=0				// FreqOffSrc=none
+XFM=0.00			// FilterFM
+XFMD=0.00			// XFMmod
+XFMS=0				// XFMrc=none
+Bias=0.00			// Bias
+OLoad=0.00			// Overload
+Click=0.00			// Click
+Drv=0				// Driver=hard
+Rout=0				// Routing=stereo
+
+/*
+
+	VoiceMix
+
+*/
+
+#cm=VCA1
+Pan1=0.00			// Pan1
+PanMS1=0				// Pan Mod Src1=none
+PanMD1=0.00			// Pan Mod Dpt1
+Vol1=50.00			// Volume1
+VCA1=1				// VCA1=Env1
+ModSrc1=0				// Modulation1=none
+ModDpt1=0.00			// Mod Depth1
+Pan2=0.00			// Pan2
+PanMS2=0				// Pan Mod Src2=none
+PanMD2=0.00			// Pan Mod Dpt2
+Vol2=50.00			// Volume2
+VCA2=1				// VCA2=Env1
+ModSrc2=0				// Modulation2=none
+ModDpt2=0.00			// Mod Depth2
+Pan3=0.00			// Pan3
+PanMS3=0				// Pan Mod Src3=none
+PanMD3=0.00			// Pan Mod Dpt3
+Vol3=50.00			// Volume3
+VCA3=1				// VCA3=Env1
+ModSrc3=0				// Modulation3=none
+ModDpt3=0.00			// Mod Depth3
+Pan4=0.00			// Pan4
+PanMS4=4				// Pan Mod Src4=Xpress
+PanMD4=0.00			// Pan Mod Dpt4
+Vol4=50.00			// Volume4
+VCA4=1				// VCA4=Env1
+ModSrc4=0				// Modulation4=none
+ModDpt4=0.00			// Mod Depth4
+MT1=0				// Mute1
+MT2=0				// Mute2
+MT3=0				// Mute3
+MT4=0				// Mute4
+PB1=0				// Panning1=Pan
+PB2=0				// Panning2=Pan
+PB3=0				// Panning3=Pan
+PB4=0				// Panning4=Pan
+Bus1=0				// Bus1=main
+Bus2=0				// Bus2=main
+Bus3=0				// Bus3=main
+Bus4=0				// Bus4=main
+Send1=0.00			// Send1
+SnSrc1=0				// SendMod1=none
+SnDpt1=0.00			// SendDepth1
+Send2=0.00			// Send2
+SnSrc2=0				// SendMod2=none
+SnDpt2=0.00			// SendDepth2
+AttS=0				// AttackSmooth
+
+/*
+
+	FXGrid
+
+*/
+
+#cm=GridFX
+Grid=31				// binary data for Grid Structure
+
+/*
+
+	ModFX1
+
+*/
+
+#cm=ModFX1
+Mode=0				// Mode=Chorus
+Cent=20.00			// Center
+Sped=50.00			// Speed
+PhOff=50.00			// Stereo
+Dpth=50.00			// Depth
+FeeB=0.00			// Feedback
+Mix=0.00			// Mix
+LCut=0.00			// LowCut Freq
+HCut=100.00			// HiCut Freq
+Quad=0.00			// Quad
+Qphs=25.00			// QuadPhase
+Leq=0.00			// Low Boost dB
+Heq=0.00			// High Boost dB
+Q1=0.00			// Q1
+Q2=0.00			// Q2
+EQon=1				// EQ
+
+/*
+
+	ModFX2
+
+*/
+
+#cm=ModFX2
+Mode=0				// Mode=Chorus
+Cent=20.00			// Center
+Sped=50.00			// Speed
+PhOff=50.00			// Stereo
+Dpth=50.00			// Depth
+FeeB=0.00			// Feedback
+Mix=0.00			// Mix
+LCut=0.00			// LowCut Freq
+HCut=100.00			// HiCut Freq
+Quad=0.00			// Quad
+Qphs=25.00			// QuadPhase
+Leq=0.00			// Low Boost dB
+Heq=0.00			// High Boost dB
+Q1=0.00			// Q1
+Q2=0.00			// Q2
+EQon=1				// EQ
+
+/*
+
+	Delay1
+
+*/
+
+#cm=Delay1
+Mode=0				// Mode=stereo 2
+Mix=10.00			// Mix
+FB=10.00			// Feedback
+CB=25.00			// X-back
+LP=100.00			// Lowpass
+HP=0.00			// Hipass
+Drv=0.00			// Drive
+Sync1=4				// Sync1=1/4
+Sync2=3				// Sync2=1/8
+Sync3=4				// Sync3=1/4
+Sync4=4				// Sync4=1/4
+T0=100.00			// Ratio1
+T1=100.00			// Ratio2
+T2=100.00			// Ratio3
+T3=100.00			// Ratio4
+Pan1=-100.00			// Pan1
+Pan2=100.00			// Pan2
+Pan3=-100.00			// Pan3
+Pan4=100.00			// Pan4
+
+/*
+
+	Delay2
+
+*/
+
+#cm=Delay2
+Mode=0				// Mode=stereo 2
+Mix=0.00			// Mix
+FB=10.00			// Feedback
+CB=25.00			// X-back
+LP=100.00			// Lowpass
+HP=0.00			// Hipass
+Drv=0.00			// Drive
+Sync1=4				// Sync1=1/4
+Sync2=4				// Sync2=1/4
+Sync3=4				// Sync3=1/4
+Sync4=4				// Sync4=1/4
+T0=100.00			// Ratio1
+T1=100.00			// Ratio2
+T2=100.00			// Ratio3
+T3=100.00			// Ratio4
+Pan1=-100.00			// Pan1
+Pan2=100.00			// Pan2
+Pan3=-100.00			// Pan3
+Pan4=100.00			// Pan4
+
+/*
+
+	Shape3
+
+*/
+
+#cm=Shape3
+Type=0				// Type=Shape
+Depth=0.00			// Depth
+DMSrc=0				// D_ModSrc=none
+DMDpt=0.00			// D_ModDepth
+Edge=75.00			// Edge
+EMSrc=0				// Edge ModSrc=none
+EMDpt=0.00			// Edge ModDepth
+Input=0.00			// Input
+Output=0.00			// Output
+HiOut=0.00			// HiOut
+
+/*
+
+	Shape4
+
+*/
+
+#cm=Shape4
+Type=0				// Type=Shape
+Depth=0.00			// Depth
+DMSrc=4				// D_ModSrc=Xpress
+DMDpt=0.00			// D_ModDepth
+Edge=75.00			// Edge
+EMSrc=4				// Edge ModSrc=Xpress
+EMDpt=0.00			// Edge ModDepth
+Input=0.00			// Input
+Output=0.00			// Output
+HiOut=0.00			// HiOut
+
+/*
+
+	ChannelMix5
+
+*/
+
+#cm=Mix5
+Pan=0.00			// Pan
+Mix=50.00			// Mix
+PnMd=0				// Pan Mode=Bal L-R
+PnMD=0.00			// PanMod Depth
+PnMS=0				// PanMod Source=none
+
+/*
+
+	ChannelMix6
+
+*/
+
+#cm=Mix6
+Pan=0.00			// Pan
+Mix=50.00			// Mix
+PnMd=0				// Pan Mode=Bal L-R
+PnMD=0.00			// PanMod Depth
+PnMS=0				// PanMod Source=none
+
+/*
+
+	Rev1
+
+*/
+
+#cm=Rev1
+Mode=0				// Mode=Reverb
+Dry=82.00			// Dry
+Wet=39.50			// Wet
+FB=31.50			// Feedback
+Damp=45.50			// Damp
+Size=63.50			// Range
+Spd=50.00			// Speed
+Dpt=76.00			// Modulation
+DFB=37.50			// Diff Feedback
+DSize=50.00			// Diff Range
+EMix=62.50			// Diff Mix
+DMod=32.00			// Diff Mod
+DSpd=55.00			// Diff Speed
+
+/*
+
+	Compressor1
+
+*/
+
+#cm=Comp1
+Type=0				// Type=Peak
+Rat=48.00			// Compression
+Thres=-49.50			// Threshold
+Att=24.50			// Attack
+Rel=50.00			// Release
+Input=0.00			// Input
+Output=5.00			// Output
+
+/*
+
+	Compressor2
+
+*/
+
+#cm=Comp2
+Type=0				// Type=Peak
+Rat=100.00			// Compression
+Thres=-20.00			// Threshold
+Att=30.00			// Attack
+Rel=50.00			// Release
+Input=0.00			// Input
+Output=0.00			// Output
+
+/*
+
+	Equalizer1
+
+*/
+
+#cm=EQ1
+fc1=7.50			// Freq LowShelf
+res1=25.00			// Q LowShelf
+gain1=5.00			// Gain LowShelf
+fc2=47.12			// Freq Mid1
+res2=25.00			// Q Mid1
+gain2=0.00			// Gain Mid1
+fc3=60.00			// Freq Mid2
+res3=25.00			// Q Mid2
+gain3=0.00			// Gain Mid2
+fc4=98.00			// Freq HiShelf
+res4=25.00			// Q HiShelf
+gain4=4.00			// Gain HiShelf
+
+/*
+
+	Equalizer2
+
+*/
+
+#cm=EQ2
+fc1=20.00			// Freq LowShelf
+res1=25.00			// Q LowShelf
+gain1=0.00			// Gain LowShelf
+fc2=40.00			// Freq Mid1
+res2=25.00			// Q Mid1
+gain2=0.00			// Gain Mid1
+fc3=60.00			// Freq Mid2
+res3=25.00			// Q Mid2
+gain3=0.00			// Gain Mid2
+fc4=80.00			// Freq HiShelf
+res4=25.00			// Q HiShelf
+gain4=0.00			// Gain HiShelf
+
+/*
+
+	Filter5
+
+*/
+
+#cm=VCF5
+Typ=0				// Type=LP Xcite
+Cut=150.00			// Cutoff
+Res=0.00			// Resonance
+Drv=0.00			// Drive
+Gain=0.00			// Gain
+FM1=0.00			// ModDepth1
+FS1=0				// Modsource1=none
+FM2=0.00			// ModDepth2
+FS2=0				// Modsource2=none
+KeyScl=0.00			// KeyFollow
+
+/*
+
+	Filter6
+
+*/
+
+#cm=VCF6
+Typ=0				// Type=LP Xcite
+Cut=150.00			// Cutoff
+Res=0.00			// Resonance
+Drv=0.00			// Drive
+Gain=0.00			// Gain
+FM1=0.00			// ModDepth1
+FS1=0				// Modsource1=none
+FM2=0.00			// ModDepth2
+FS2=0				// Modsource2=none
+KeyScl=0.00			// KeyFollow
+
+/*
+
+	Master
+
+*/
+
+#cm=ZMas
+Ret1=0.00			// Return1
+Ret2=0.00			// Return2
+Mast=100.00			// Master
+XY1L=32				// binary data for XY1 Label
+XY2L=33				// binary data for XY2 Label
+XY3L=34				// binary data for XY3 Label
+XY4L=35				// binary data for XY4 Label
+XY1T=36				// binary data for XY1 Text
+XY2T=37				// binary data for XY2 Text
+XY3T=38				// binary data for XY3 Text
+XY4T=39				// binary data for XY4 Text
+OSC1=40				// binary data for Oscillator1
+OSC2=41				// binary data for Oscillator2
+OSC3=42				// binary data for Oscillator3
+OSC4=43				// binary data for Oscillator4
+MSEG1=44				// binary data for MSEG1
+MSEG2=45				// binary data for MSEG2
+MSEG3=46				// binary data for MSEG3
+MSEG4=47				// binary data for MSEG4
+Rev1=48				// binary data for Rev1
+Pn3=11				// FXPaneMem
+Pn4=0				// OSC1PaneMem
+Pn5=0				// OSC2PaneMem
+Pn6=0				// OSC3PaneMem
+Pn7=0				// OSC4PaneMem
+Pn8=0				// VCF1PaneMem
+Pn9=0				// VCF2PaneMem
+Pn10=0				// VCF3PaneMem
+Pn11=0				// VCF4PaneMem
+Rack0=49				// binary data for MainRackMem
+Rack1=50				// binary data for ModRackMem
+
+
+// Section for ugly compressed binary Data
+// DON'T TOUCH THIS
+
+$$$$73624
+?klkkkkdo:jkjjjjlo:aaaaiadp:gdgceneb:aaaaialp:popphplp:aaaaaaac:
+kffckjdo:aaaaaaea:popphpdp:aa:do:eb:dp:ec:hp:ab:he:gm:ca:pp:go:l
+p:ac:ea:dn:ng:gd:gf:ad:pl:gb:fh:gj:oa:ba!tiaA6sA127tiaA6sA127tOA
+10co2AhfIHJhdRVISA22syA1O1A1iaOA1kaOA1maOA1YOtANA5sA3syA1O1A1iaO
+A1kaOA1maOA1YOA2CA1ZCA1JCA1daCA1OCA1faCA1gaCA1haCA1iaCA1iiCA1jaC
+A1jiCA1kaCA1kiCA1laCA1liCA1maCA1miCA1naCA1niCA1YCA1oiCA1paCA1piC
+A2EA1aeEA1aiEA1amEA1ZEA1beEA1biEA1bmEA1JEA1ceEA1ciEA1cmEA1daEA1d
+eEA1diEA1dmEA1OEA1eeEA1eiEA1emEA1faEA1feEA1fiEA1fmEA1gaEA1geEA1g
+iEA1IEA1haEA1HEA1hiEA1hmEA1iaEA1icEA1ieEA1igEA1iiEA1ikEA1imEA1io
+EA1jaEA1jcEA1jeEA1jgEA1jiEA1jkEA1jmEA1joEA1kaEA1kcEA1keEA1kgEA1k
+iEA1kkEA1kmEA1koEA1laEA1lcEA1leEA1lgEA1liEA1lkEA1lmEA1loEA1maEA1
+mcEA1meEA1mgEA1miEA1mkEA1mmEA1moEA1naEA1ncEA1neEA1QEA1niEA1nkEA1
+nmEA1noEA1YEA1ocEA1oeEA1ogEA1oiEA1okEA1omEA1ooEA1paEA1pcEA1peEA1
+pgEA1piEA1pkEA1pmEA1poEtdaNA5sA3ZA2aeA2aiA2GaeA25rsA7ryA7rA1O1A7
+rA1iaOA7rA1kaOA7rA1maOA7rA1YOA7rA2CA7rA1ZCA7rA1JCA7rA1daCA7rA1OC
+A7rA1faCA7rA1gaCA7rA1haCA7rA1iaCA7rA1iiCA7rA1jaCA7rA1jiCA7rA1kaC
+A7rA1kiCA7rA1laCA7rA1liCA7rA1maCA7rA1miCA7rA1naCA7rA1niCA7rA1YCA
+7rA1oiCA7rA1paCA7rA1piCA7rA15tdaNA5sA3ZA2aeA2aiA2GaeA25rsA7ryA7r
+A1O1A7rA1iaOA7rA1kaOA7rA1maOA7rA1YOA7rA2CA7rA1ZCA7rA1JCA7rA1daCA
+7rA1OCA7rA1faCA7rA1gaCA7rA1haCA7rA1iaCA7rA1iiCA7rA1jaCA7rA1jiCA7
+rA1kaCA7rA1kiCA7rA1laCA7rA1liCA7rA1maCA7rA1miCA7rA1naCA7rA1niCA7
+rA1YCA7rA1oiCA7rA1paCA7rA1piCA7rA15tdaNA5sA3ZA2aeA2aiA2GaeA25rsA
+7ryA7rA1O1A7rA1iaOA7rA1kaOA7rA1maOA7rA1YOA7rA2CA7rA1ZCA7rA1JCA7r
+A1daCA7rA1OCA7rA1faCA7rA1gaCA7rA1haCA7rA1iaCA7rA1iiCA7rA1jaCA7rA
+1jiCA7rA1kaCA7rA1kiCA7rA1laCA7rA1liCA7rA1maCA7rA1miCA7rA1naCA7rA
+1niCA7rA1YCA7rA1oiCA7rA1paCA7rA1piCA7rA15tdaNA5sA3ZA2aeA2aiA2Gae
+A25rsA7ryA7rA1O1A7rA1iaOA7rA1kaOA7rA1maOA7rA1YOA7rA2CA7rA1ZCA7rA
+1JCA7rA1daCA7rA1OCA7rA1faCA7rA1gaCA7rA1haCA7rA1iaCA7rA1iiCA7rA1j
+aCA7rA1jiCA7rA1kaCA7rA1kiCA7rA1laCA7rA1liCA7rA1maCA7rA1miCA7rA1n
+aCA7rA1niCA7rA1YCA7rA1oiCA7rA1paCA7rA1piCA7rA15tiaA6sA127tiaA6sA
+127tiaA6sA127tiaA6sA127tamTA5seeejfcehaeA2amA2epfdeddbwG1A1eogpX
+hdSdbAN1GA1fgedegddwNGA1epfdeddeALHINGA1epfdeddcAQgllaAGA1eogpXh
+dSdcApaNGA1egenepddwNGA1fgedegdcALHINGA1epfdedddA2jpAGA1fgedegde
+AQIhaNGA1egenepdbA2XNGA1egenepdcALHINGA2QIZwA3egenepdeAQgkpaNGA1
+edgpgngcdbA1ggNGA1edgpgngcdcAHINGA1fdgiVhaSdbAN1GA1fdgiVhaSdcApa
+NGA1enXhidbA2bgNVA1enXhidcALHINVA1enXhiddwNVA1enXhideAQXnaNVA1fc
+XLghdbA1apNVA1fcXLghdcAHINVA1fgedegdbA2jkAGA1fienegdcAQglhaakhcA
+2LHIA2amA3wRLHIA3fienegdbwajhbA4ajbcQglpaA4LHIA2aiA3wRLHIA4Qgkla
+wA6afbcQgkjaA4LHIA2aeA3wRLHIA4QglZwA3wbcQgldaA4LHIA2GA3wVR1SA4nb
+oijaA2GA6ckalnboihaA4R1SA2cjA6GVR1SA4nboidaA2GA6bhalnboiZA4R1SA2
+bgA6GVR1SA4QghlaA2GA3walnbohYA4R1SA2GA6GA151taeJA5yA3phhklnBcglm
+aiDK1FDNfkicBA115agfiGDagkoGDhhllnnBA111ocedhhBA2DcmolekDhhllnnB
+A115hhllnnBsekhkbcBA118DKffADhhllnnBA111hhllnnBA2DslhidomBA111hh
+llnnBephobeDpfmodmDA2DA115hhllnnBsFocblPA115pdcclmBhhllnnBfiklff
+BA111djhcaoBhhllnnBocbkdiDdjmginBA115bolkahBhhllnnBahNGBA115jkkc
+cgBhhllnnBpofdKPA111ihmdVPEpfepDshhllnnBA111mggclbPA2DdbLamDhhll
+nnBA111nbgklfBjnhloiBA2DhhllnnBA111hgocjlBhhllnnBA2DhgRnmBA107sl
+ijaifBckbglclnpkKFMK1FDA107zuvsvA111uA3slfpkjnloA111uK1FDszA111u
+A3UKFMcebcajloA107zpgKfpMA3suA107scebcajBuvA115us2A111umhEbgMeeo
+lbjMcogecbDA111jgnopeBmhnnfedmsLhkndloA107zu1jdPjnlosA107zupkKFM
+ilhkcgMzA107CbglclnccalfjMkgdhPMsjachelMA111zA3slifkefPA111pmKFD
+nmpecgMA3mjndjlloA107ncjlfoDkidhPDkdeiibMA3vA363q1A3qA759qA3qA11
+1qA3q1A239q1A3qA243qA247qA3q1A363q1A3qA759qA3qA111qA3q1A239q1A3q
+A243qA247qA3q1A107aeA2tZA6yfiemdmceF3gaeidabiF3tAJA5yA8191taeJA5
+yA6ddA2DsxhmbdnpBonelUBA103aeNibPA2DmiodhbDxhmbdnpBonelUBA103noe
+dhhBA2DbenpeeDxhmbdnpBonelUBA107nmjhpgBnledphBxonelUBpgUpnBA103k
+kidIPjmcdohBgcigbiDelccbbPfmTWBxA107odmcdgPogicCPbnakafBfmTWBxA1
+07pkkdpmPKG1BbnakafBfmTWBxA107moodhbBnajdHBbnakafBfmTWBxA105YdcU
+khpoBTNGDfmTWBxonelUBA105YdcUkhpoBTNGDfmTWBxonelUBA110DnkbehfDfm
+TWBxonelUBA103jbmdVPonelUBeoUfcDfmTWBxniDpfBA107xonelUBpcCkbdmpe
+icmbdmfmTWBA105kadcpgkhpoBsfmTWBxonelUBA103fmTWBYefhiDsxonelUBni
+jdHDA105iaddhkbdfpBaiidmbBckedmmdmgcicjgPeoncbdBA103uA3pmKFDgcom
+mhlnZlcTlofpicjglmA103pmKFMA3sconbailopjphdclobp1nklmA103vA3pjKF
+DoobfibloehafkilooikofflnA99K1FDuvskk1ckMFekhnMvA99pnKFDv1s3A99p
+nKFDv1s3A99pnKFDv1s3A99pnKFDv1s3A99K1FMpnKFMsvldgibploiknnkiBnaB
+hjDA99pmKFDpnKFMsvldgibploiknnkiBnaBhjDA103vupiKFDK1FMK1FMuA103h
+nndblDdahchiMafcdRDikncbdPcifgbhMvA99zpmKFMhjoplnloaicmdalnzujae
+hboMA99dglnXDpnKFMzujpgibplojjnnkiBniBhjDA99zpjhiapDzuYijjnBcfan
+oblmpnKFMA103vundjlnoBshoajGMedbgdcDA227q3A11q56A1027qA3qA7qA739
+q3A11q56A1027qA3qA7qA611aeA2tZA6yfiemdmceF3gaeidabiF3tAJA5yA8191
+taeJA5yA6ddA2DsxhmbdnpBonelUBA103aeNibPA2DmiodhbDxhmbdnpBonelUBA
+103noedhhBA2DbenpeeDxhmbdnpBonelUBA107nmjhpgBnledphBxonelUBpgUpn
+BA103kkidIPjmcdohBgcigbiDelccbbPfmTWBxA107odmcdgPogicCPbnakafBfm
+TWBxA107pkkdpmPKG1BbnakafBfmTWBxA107moodhbBnajdHBbnakafBfmTWBxA1
+05YdcUkhpoBTNGDfmTWBxonelUBA105YdcUkhpoBTNGDfmTWBxonelUBA110Dnkb
+ehfDfmTWBxonelUBA103jbmdVPonelUBeoUfcDfmTWBxniDpfBA107xonelUBpcC
+kbdmpeicmbdmfmTWBA105kadcpgkhpoBsfmTWBxonelUBA103fmTWBYefhiDsxon
+elUBnijdHDA105iaddhkbdfpBaiidmbBckedmmdmgcicjgPeoncbdBA103uA3pmK
+FDgcommhlnZlcTlofpicjglmA103pmKFMA3sconbailopjphdclobp1nklmA103v
+A3pjKFDoobfibloehafkilooikofflnA99K1FDuvskk1ckMFekhnMvA99pnKFDv1
+s3A99pnKFDv1s3A99pnKFDv1s3A99pnKFDv1s3A99K1FMpnKFMsvldgibploiknn
+kiBnaBhjDA99pmKFDpnKFMsvldgibploiknnkiBnaBhjDA103vupiKFDK1FMK1FM
+uA103hnndblDdahchiMafcdRDikncbdPcifgbhMvA99zpmKFMhjoplnloaicmdal
+nzujaehboMA99dglnXDpnKFMzujpgibplojjnnkiBniBhjDA99zpjhiapDzuYijj
+nBcfanoblmpnKFMA103vundjlnoBshoajGMedbgdcDA227q3A11q56A1027qA3qA
+7qA739q3A11q56A1027qA3qA7qA611aeA2tZA6yfiemdmceF3gaeidabiF3tAJA5
+yA8191taeJA5yA10DsA119agfiGDagkoGDA115ocedhhBA2DcmolekDA119ekhkb
+cBsA122DKffADA115lhidomBA2DsA118DephobeDpfmodmDA119FocblPsA119fi
+klffBpdcclmBA115djhcaoBdjmginBocbkdiDA119ahNGBbolkahBA119pofdKPj
+kkccgBA115ihmdVPEpfepDsA115mggclbPA2DdbLamDA115nbgklfBjnhloiBA2D
+A115hgocjlBhgRnmBA2DA115uA3sA111zuvsA115uA3sA115uzsA115uA3UKFMA1
+11zuA3sA111sA3uvA115us1A115ucogecbDmhEbgMA115jgnopeBLhkndlosA111
+zusuA111zuzpkKFMA111CbglclnccalfjMkgdhPMsA115zA3sA115pmKFDnmpecg
+MA115ncjlfoDkidhPDvA371q1A3qA759q1A115q2A243q2A247qA247q2A367q1A
+3qA759q1A115q2A243q2A247qA247q2A111aeA2tZA6yfiemdmceF3gaeidabiF3
+tAJA5yA8191tZA6yfcfbefAF4hoODF3tZA6yfcfbefAF4hoODF3tZA6yfcfbefAF
+4hoODF3tZA6yfcfbefAF4hoODF3tZA6yfcfbefAF4hoODF3tZA6yfcfbefAF4hoO
+DF3tamTA5seeejfcehTA2agA2engpgeegfidbAYNGA1engpgeegfidcAgaNGA1en
+XhidfA2GNVA2jdckYgiXgpgcA3edgpgnhadbAffiaaibbA1fdgiVhaSddAjaNGA1
+fdgiVhaSdeATNGA4GgiXgpgcA3effbdbAwajbbA1enXhidgAQfdpaNVA1eeSIVhj
+dcAGNGA1wRLHIA3fcXLghddA1N1VA1fcShgdbA1ahnnNGA1edgpgnhadcAahnhak
+beA1wRLHIA3eeSIVhjdbAgeNGA1effbdcAbcQfgiaakbcA1fgedegdfA2mjNbeA1
+wRLHIA3fgedegdgwNbbA4kabcQWYA4LHIA2joA3wRLHIA4QfjJwA6jkbcQffgaA4
+LHIA2jhA3wRLHIA4QfikawA6XbcQWmaA4LHIA2giA3wRLHIA4QWJwA6ggbcQfgga
+A4LHIA2SA3wRLHIA4QffAwA6bgbcQfjgaA4LHIA2bbA3wRLHIA4QffYwA6apbcQf
+fkaA4LHIA2aoA3wRLHIA4QWkawA6ambcQffJA4LHIA2akA3wRLHIA4QfiJwA6aib
+cQfgJA4LHIA2ahA4iijdlmRLHIA4QfgYwA6afbcQfgmaA4LHIA2aeA3wRLHIA4QW
+OwA3wbcQWgaA4LHIA2GA3wVR1SA4QfdlaA2GA6ckbcQfeYA4R1SA2cjA6GVR1SA3
+tJA10egXIHShcA25tJA10ephdRXI1VHgphchdA20tJA10efLhgSIgphaShdA22tJ
+A10efgg1SRHhdA24tAGA9fiJPJedhfHgpgg1anfjJPJfcShdgpLVLRSA231tAGA9
+WVhgSgggphcgnhdA246tAGA9fiJPJegXIHShcJeeSRVhjanfjJPJegXIHShcJfdh
+fhdHVXLA220tAGA9fiJPJenXgeJeffbJeghcShbanfjJPJenXgeJeffbJehVXLA2
+24tJA10co2AhfIHA24tJA10cnJephdRJejLXHAgpgcISLgecogidchaANkahlkgH
+ANahimaltJA10cnJephdRJejLXHAgpgcISLgecogidchaANkahlkgHANahimaltJ
+A10co2AhfIHA24tJA10co2AhfIHA24tJA10co2AhfIHA24tJA10co2AhfIHA24tJ
+A10co2AhfIHA24tJA10co2AhfIHA24tAGA8Eco2A252tAGA8Eco2A252=627138
+  

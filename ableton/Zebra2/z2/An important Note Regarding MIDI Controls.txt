@@ -1,0 +1,19 @@
+This soundset relies HEAVILY on
+the use of the modwheel and the
+expression pedal.  A good portion
+of the patches will be inaudible
+unless you turn up the modwheel.
+The expression pedal will also do
+some unique and subtle things with
+most of the patches as well.  If you
+don't have an expression pedal, you can, of
+course, just assign MIDI CC 11 to a different
+type of physical controller(Knob, Slider, aftertouch, etc...)
+
+Let me know if there are any problems at
+
+derelictsoundsmithing@gmail.com
+
+Thanks and enjoy!
+
+ - Corin

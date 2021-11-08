@@ -1,0 +1,2 @@
+A few Zebra2 patches by Jack Deckard (jcdeckard@sbcglobal.net). Some of them are pretty basic but still very useful. I am especially happy with FM SineBass, a recreation of my favorite bass sound, originally worked up on a Yamaha FB-01. Zebra2 is very good at FM.
+Many thanks and a big hi-ya to other Zebra PD patch programmers.
